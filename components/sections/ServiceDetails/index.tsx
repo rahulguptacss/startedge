@@ -2,13 +2,11 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowRight, Mail, MapPin, Phone } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { ServiceDetailsProps } from '../../types';
 import Reveal from '../../ui/Reveal';
 
 export default function ServiceDetails({ data, allServices, sidebar }: ServiceDetailsProps) {
-  const tel = `tel:${sidebar.phone.replace(/[^\d+]/g, '')}`;
-
   return (
     <section className="bg-white px-3 py-8 sm:px-6 sm:py-14">
       <div className="mx-auto grid max-w-[1240px] items-start gap-8 lg:grid-cols-[minmax(0,1fr)_300px]">
@@ -68,21 +66,6 @@ export default function ServiceDetails({ data, allServices, sidebar }: ServiceDe
                 );
               })}
             </ul>
-          </div>
-
-          <div className="rounded-[22px] bg-[#f7f3ee] p-5">
-            <h3 className="text-[20px] font-extrabold text-[#411516]" style={{ fontWeight: 800 }}>{sidebar.contact_title}</h3>
-            <ul className="mt-4 space-y-3 text-[14px] text-[#3d342f]">
-              <li className="flex gap-3"><MapPin size={16} className="mt-0.5 shrink-0 text-[#411516]" />{sidebar.address}</li>
-              <li className="flex gap-3"><Phone size={16} className="shrink-0 text-[#411516]" /><a href={tel}>{sidebar.phone}</a></li>
-              <li className="flex gap-3"><Mail size={16} className="shrink-0 text-[#411516]" /><a href={`mailto:${sidebar.email}`}>{sidebar.email}</a></li>
-            </ul>
-            <motion.div className="mt-5 w-fit" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
-              <Link href={sidebar.button.href} className="inline-flex items-center gap-2 rounded-full bg-[#411516] px-5 py-2.5 text-[14px] font-semibold text-white">
-                {sidebar.button.text}
-                <ArrowRight size={15} />
-              </Link>
-            </motion.div>
           </div>
 
           <div className="rounded-[22px] bg-[#411516] p-6 text-white">

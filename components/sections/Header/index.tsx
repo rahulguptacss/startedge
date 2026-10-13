@@ -14,18 +14,15 @@ export function Brand({ src, alt, className = 'h-[84px]' }: { src: string; alt: 
 export default function Header({ data }: HeaderProps) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const tel = `tel:${data.phone.replace(/[^\d+]/g, '')}`;
 
   const active = (href: string) => (href === '/' ? pathname === '/' : pathname.startsWith(href));
 
   return (
     <header className="sticky top-0 z-50 bg-[#411516]">
       <div className="mx-auto flex h-[72px] w-full max-w-[1480px] items-center justify-between gap-4 px-4 lg:h-[108px] lg:gap-6 lg:px-4">
-        <motion.div initial={{ opacity: 0, x: -16 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.45 }}>
-          <Link href="/" aria-label={data.logo_text} className="shrink-0">
-            <Brand src={data.logo} alt={data.logo_text} className="h-14 lg:h-[84px]" />
-          </Link>
-        </motion.div>
+        <Link href="/" aria-label={data.logo_text} className="shrink-0">
+          <Brand src={data.logo} alt={data.logo_text} className="h-14 lg:h-[84px]" />
+        </Link>
 
         <div className="hidden items-center gap-8 lg:flex">
           <nav className="flex items-center gap-8">
@@ -49,10 +46,6 @@ export default function Header({ data }: HeaderProps) {
           </nav>
 
           <span className="h-8 w-px bg-[#e6c27a]/70" />
-
-          <a href={tel} className="text-[18px] font-medium text-[#f6ead4]">
-            {data.phone}
-          </a>
 
           <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
             <Link

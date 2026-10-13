@@ -1,7 +1,7 @@
 {
   "common": {
     "Header": {
-      "logo": "/logo/whitelogo.png",
+      "logo": "/logo/whitelogo.webp",
       "logo_text": "FinTrust",
       "links": [
         {
@@ -35,7 +35,7 @@
       "button_link": "tel:+100000000000"
     },
     "Footer": {
-      "logo": "/logo/whitelogo.png",
+      "logo": "/logo/whitelogo.webp",
       "logo_text": "FinTrust",
       "description": "Your Trusted Partner for Smarter Financial Planning and a Brighter Tomorrow.",
       "quick_links": [
@@ -448,15 +448,15 @@
                 "text": "Contact Us",
                 "href": "/contact"
               },
-              "image": "/banner/herobanner.png"
+              "image": "/banner/herobanner.webp"
             },
             "about": {
               "subtitle": "About Us",
               "title_line1": "The Journey Behind Our",
               "title_highlight": "Business Success",
               "description": "We are committed to helping individuals and businesses achieve their financial goals through expert guidance, tailored strategies, and unwavering support.",
-              "image": "/img/boys.png",
-              "image_secondary": "/img/girl.png",
+              "image": "/img/boys.webp",
+              "image_secondary": "/img/girl.webp",
               "cards": [
                 {
                   "title": "Strategic Financial Planning",
@@ -498,7 +498,7 @@
               "phone": "+100000000000",
               "email_label": "Email Us",
               "email": "info@xyz.com",
-              "image": "/img/cta.png"
+              "image": "/img/cta.webp"
             },
             "services": {
               "subtitle": "Services",
@@ -513,21 +513,21 @@
                 {
                   "title": "Business Planning",
                   "description": "We help you create clear, strategic business plans to drive growth, improve efficiency, and achieve long-term success.",
-                  "image": "/services/1.png",
+                  "image": "/services/1.webp",
                   "link": "/services/business-planning",
                   "icon": "TrendingUp"
                 },
                 {
                   "title": "Marketing & Branding",
                   "description": "We develop result-driven marketing strategies to strengthen your brand presence and connect you with the right audience.",
-                  "image": "/services/2.png",
+                  "image": "/services/2.webp",
                   "link": "/services/marketing-branding",
                   "icon": "Megaphone"
                 },
                 {
                   "title": "Sales Consulting",
                   "description": "We provide expert sales consulting to improve your sales process, boost team performance, and maximize revenue.",
-                  "image": "/services/3.png",
+                  "image": "/services/3.webp",
                   "link": "/services/sales-consulting",
                   "icon": "Users"
                 },
@@ -541,28 +541,28 @@
                 {
                   "title": "Tax Planning",
                   "description": "We plan taxes around your income, investments, and the filings that affect this year.",
-                  "image": "/services/2.png",
+                  "image": "/services/2.webp",
                   "link": "/services/tax-planning",
                   "icon": "TrendingUp"
                 },
                 {
                   "title": "Retirement Planning",
                   "description": "We map the savings and income you need so retirement is a date, not a guess.",
-                  "image": "/services/3.png",
+                  "image": "/services/3.webp",
                   "link": "/services/retirement-planning",
                   "icon": "Users"
                 },
                 {
                   "title": "Wealth Management",
                   "description": "We look after investments, risk, and the mix that fits the life you want.",
-                  "image": "/services/1.png",
+                  "image": "/services/1.webp",
                   "link": "/services/wealth-management",
                   "icon": "Megaphone"
                 },
                 {
                   "title": "Investment Advisory",
                   "description": "We help you choose where money goes and what return is realistic.",
-                  "image": "/services/2.png",
+                  "image": "/services/2.webp",
                   "link": "/services/investment-advisory",
                   "icon": "TrendingUp"
                 }
@@ -583,32 +583,32 @@
                 {
                   "name": "Priya Sharma",
                   "role": "Business Consultant",
-                  "image": "/team/2.png"
+                  "image": "/team/2.webp"
                 },
                 {
                   "name": "Rahul Mehta",
                   "role": "Strategy Consultant",
-                  "image": "/team/3.png"
+                  "image": "/team/3.webp"
                 },
                 {
                   "name": "Ananya Iyer",
                   "role": "Marketing Consultant",
-                  "image": "/team/5.png"
+                  "image": "/team/5.webp"
                 },
                 {
                   "name": "Amit Verma",
                   "role": "IT Consultant",
-                  "image": "/team/6.png"
+                  "image": "/team/6.webp"
                 },
                 {
                   "name": "Arjun Singh",
                   "role": "Financial Advisor",
-                  "image": "/team/1.png"
+                  "image": "/team/1.webp"
                 },
                 {
                   "name": "Vikram Patel",
                   "role": "Sales Consultant",
-                  "image": "/team/4.png"
+                  "image": "/team/4.webp"
                 }
               ]
             },
@@ -617,7 +617,7 @@
               "title_line1": "Frequently",
               "title_highlight": "Ask Questions",
               "description": "Find quick answers to common questions about our consulting services, process, and how we help businesses grow.",
-              "image": "/img/faq.png",
+              "image": "/img/faq.webp",
               "items": [
                 {
                   "question": "What consulting services do you offer?",
@@ -646,34 +646,34 @@
               "title_line1": "What Our Customers",
               "title_highlight": "Say About Us",
               "description": "Our clients' success stories reflect our commitment, expertise, and dedication to delivering real results. Here's what they have to say about working with us.",
-              "image": "/img/testimonails.png",
+              "image": "/img/testimonails.webp",
               "reviews": [
                 {
                   "text": "Their strategic advice helped us streamline our operations and significantly improve our business growth.",
                   "author": "Priya Sharma",
                   "role": "CEO, TechSolutions",
-                  "avatar": "/team/2.png",
+                  "avatar": "/team/2.webp",
                   "rating": 5
                 },
                 {
                   "text": "Professional, knowledgeable, and truly supportive. Their team understood our needs and delivered the best solutions.",
                   "author": "Rahul Mehta",
                   "role": "Founder, GrowthHub",
-                  "avatar": "/team/3.png",
+                  "avatar": "/team/3.webp",
                   "rating": 5
                 },
                 {
                   "text": "Excellent service and outstanding results. They have been a valuable partner in our success journey.",
                   "author": "Anjali Verma",
                   "role": "Marketing Head, BrightMedia",
-                  "avatar": "/team/5.png",
+                  "avatar": "/team/5.webp",
                   "rating": 5
                 },
                 {
                   "text": "Clear advice and a plan we could follow. The team stayed with us through every review.",
                   "author": "Amit Verma",
                   "role": "Director, Northline",
-                  "avatar": "/team/6.png",
+                  "avatar": "/team/6.webp",
                   "rating": 5
                 }
               ]
@@ -693,56 +693,56 @@
                   "title": "Complete Guide Business Insurance Perfect",
                   "date": "12 Mar, 2025",
                   "excerpt": "Learn how business insurance protects your company, reduces risk, and ensures long-term growth.",
-                  "image": "/blog/1.png",
+                  "image": "/blog/1.webp",
                   "href": "/blog/business-finances-for-start"
                 },
                 {
                   "title": "How Scale Your Business Without Losing Quality",
                   "date": "18 Mar, 2025",
                   "excerpt": "Discover proven strategies to scale your business efficiently while maintaining quality, productivity, and customer satisfaction.",
-                  "image": "/blog/2.png",
+                  "image": "/blog/2.webp",
                   "href": "/blog/scale-without-losing-quality"
                 },
                 {
                   "title": "The Entrepreneur Guide To Work-Life Balance",
                   "date": "22 Mar, 2025",
                   "excerpt": "Explore practical tips and expert advice to achieve a healthy work-life balance as an entrepreneur.",
-                  "image": "/blog/3.png",
+                  "image": "/blog/3.webp",
                   "href": "/blog/guide-to-steady-cashflow"
                 },
                 {
                   "title": "A Simple Way To Read Your Monthly Numbers",
                   "date": "28 Mar, 2025",
                   "excerpt": "Three lines on one page are enough to see whether the month is healthy before the meeting starts.",
-                  "image": "/blog/4.png",
+                  "image": "/blog/4.webp",
                   "href": "/blog/read-your-monthly-numbers"
                 },
                 {
                   "title": "What To Ask Before You Hire The Next Person",
                   "date": "02 Apr, 2025",
                   "excerpt": "A new seat should name the work it will take, not only the title you want on the offer letter.",
-                  "image": "/blog/5.png",
+                  "image": "/blog/5.webp",
                   "href": "/blog/before-you-hire"
                 },
                 {
                   "title": "How A Quiet Quarter Still Moves The Plan",
                   "date": "09 Apr, 2025",
                   "excerpt": "Slow months are useful when the team uses them to finish the work that busy months keep postponing.",
-                  "image": "/blog/1.png",
+                  "image": "/blog/1.webp",
                   "href": "/blog/quiet-quarter-plan"
                 },
                 {
                   "title": "Pricing That Clients Can Explain Back",
                   "date": "16 Apr, 2025",
                   "excerpt": "A price holds when the buyer can say what it covers without opening the proposal again.",
-                  "image": "/blog/2.png",
+                  "image": "/blog/2.webp",
                   "href": "/blog/pricing-clients-explain"
                 },
                 {
                   "title": "The Weekly Review That Replaces Status Meetings",
                   "date": "23 Apr, 2025",
                   "excerpt": "One short written review keeps owners aligned without another hour on the calendar.",
-                  "image": "/blog/3.png",
+                  "image": "/blog/3.webp",
                   "href": "/blog/weekly-review"
                 }
               ]
@@ -777,7 +777,7 @@
                 {
                   "slug": "business-finances-for-start",
                   "title": "Complete Guide Business Insurance Perfect",
-                  "image": "/blog/1.png",
+                  "image": "/blog/1.webp",
                   "day": "12",
                   "month": "MAR 2025",
                   "author": "Admin",
@@ -801,7 +801,7 @@
                 {
                   "slug": "scale-without-losing-quality",
                   "title": "How Scale Your Business Without Losing Quality",
-                  "image": "/blog/2.png",
+                  "image": "/blog/2.webp",
                   "day": "18",
                   "month": "MAR 2025",
                   "author": "Admin",
@@ -825,7 +825,7 @@
                 {
                   "slug": "guide-to-steady-cashflow",
                   "title": "The Entrepreneur Guide To Work-Life Balance",
-                  "image": "/blog/3.png",
+                  "image": "/blog/3.webp",
                   "day": "22",
                   "month": "MAR 2025",
                   "author": "Admin",
@@ -849,7 +849,7 @@
                 {
                   "slug": "read-your-monthly-numbers",
                   "title": "A Simple Way To Read Your Monthly Numbers",
-                  "image": "/blog/4.png",
+                  "image": "/blog/4.webp",
                   "day": "28",
                   "month": "MAR 2025",
                   "author": "Admin",
@@ -873,7 +873,7 @@
                 {
                   "slug": "before-you-hire",
                   "title": "What To Ask Before You Hire The Next Person",
-                  "image": "/blog/5.png",
+                  "image": "/blog/5.webp",
                   "day": "02",
                   "month": "APR 2025",
                   "author": "Admin",
@@ -897,7 +897,7 @@
                 {
                   "slug": "quiet-quarter-plan",
                   "title": "How A Quiet Quarter Still Moves The Plan",
-                  "image": "/blog/1.png",
+                  "image": "/blog/1.webp",
                   "day": "09",
                   "month": "APR 2025",
                   "author": "Admin",
@@ -921,7 +921,7 @@
                 {
                   "slug": "pricing-clients-explain",
                   "title": "Pricing That Clients Can Explain Back",
-                  "image": "/blog/2.png",
+                  "image": "/blog/2.webp",
                   "day": "16",
                   "month": "APR 2025",
                   "author": "Admin",
@@ -945,7 +945,7 @@
                 {
                   "slug": "weekly-review",
                   "title": "The Weekly Review That Replaces Status Meetings",
-                  "image": "/blog/3.png",
+                  "image": "/blog/3.webp",
                   "day": "23",
                   "month": "APR 2025",
                   "author": "Admin",
@@ -978,73 +978,73 @@
                   "slug": "cut-costs",
                   "title": "Business Strategy to Cut Costs by 30%",
                   "category": "Business Consultation",
-                  "image": "/img/boys.png"
+                  "image": "/img/boys.webp"
                 },
                 {
                   "slug": "legacy-systems",
                   "title": "Transforming Legacy Systems",
                   "category": "Digital Agency",
-                  "image": "/services/1.png"
+                  "image": "/services/1.webp"
                 },
                 {
                   "slug": "brand-strategy",
                   "title": "Revolutionizing Brand Strategy",
                   "category": "Cyber Security",
-                  "image": "/services/2.png"
+                  "image": "/services/2.webp"
                 },
                 {
                   "slug": "digital-products",
                   "title": "Building Scalable Digital Products",
                   "category": "Product Development",
-                  "image": "/services/3.png"
+                  "image": "/services/3.webp"
                 },
                 {
                   "slug": "creative-campaigns",
                   "title": "Creative Campaigns That Drive Results",
                   "category": "Marketing & Branding",
-                  "image": "/img/girl.png"
+                  "image": "/img/girl.webp"
                 },
                 {
                   "slug": "it-infrastructure",
                   "title": "Modern IT Infrastructure for Growing Teams",
                   "category": "IT Solutions",
-                  "image": "/img/faq.png"
+                  "image": "/img/faq.webp"
                 },
                 {
                   "slug": "operating-plan",
                   "title": "A One-Year Operating Plan",
                   "category": "Business Planning",
-                  "image": "/team/1.png"
+                  "image": "/team/1.webp"
                 },
                 {
                   "slug": "sales-pipeline",
                   "title": "Sales Pipeline That Closes Faster",
                   "category": "Sales Consulting",
-                  "image": "/team/3.png"
+                  "image": "/team/3.webp"
                 },
                 {
                   "slug": "cash-review",
                   "title": "Cash Review Before the Next Hire",
                   "category": "Financial Advisory",
-                  "image": "/team/4.png"
+                  "image": "/team/4.webp"
                 },
                 {
                   "slug": "brand-system",
                   "title": "Brand System for a Growing Firm",
                   "category": "Marketing & Branding",
-                  "image": "/team/5.png"
+                  "image": "/team/5.webp"
                 },
                 {
                   "slug": "retirement-plan",
                   "title": "Retirement Plan With a Real Date",
                   "category": "Retirement Planning",
-                  "image": "/team/6.png"
+                  "image": "/team/6.webp"
                 },
                 {
                   "slug": "investment-mix",
                   "title": "Investment Mix the Owners Can Keep",
                   "category": "Wealth Management",
-                  "image": "/img/testimonails.png"
+                  "image": "/img/testimonails.webp"
                 }
               ]
             },
@@ -1058,7 +1058,7 @@
                 {
                   "slug": "cut-costs",
                   "title": "Business Strategy to Cut Costs by 30%",
-                  "image": "/img/boys.png",
+                  "image": "/img/boys.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "Cost Strategy",
                   "paragraphs": [
@@ -1079,8 +1079,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "Output stayed level while monthly spend fell. The saving was visible in the next two quarters, and the Friday review is still how the company decides whether a new cost earns its place.",
                   "gallery": [
-                    "/services/1.png",
-                    "/services/2.png"
+                    "/services/1.webp",
+                    "/services/2.webp"
                   ],
                   "client": "Northline Studio",
                   "project_type": "Business Consultation",
@@ -1089,7 +1089,7 @@
                 {
                   "slug": "legacy-systems",
                   "title": "Transforming Legacy Systems",
-                  "image": "/services/1.png",
+                  "image": "/services/1.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "Systems Work",
                   "paragraphs": [
@@ -1111,8 +1111,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "Jobs of the same type now move with fewer handoff messages, and the invoice no longer waits on a search for the final file.",
                   "gallery": [
-                    "/img/faq.png",
-                    "/services/3.png"
+                    "/img/faq.webp",
+                    "/services/3.webp"
                   ],
                   "client": "Harbor Digital",
                   "project_type": "Digital Agency",
@@ -1121,7 +1121,7 @@
                 {
                   "slug": "brand-strategy",
                   "title": "Revolutionizing Brand Strategy",
-                  "image": "/services/2.png",
+                  "image": "/services/2.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "Brand Work",
                   "paragraphs": [
@@ -1142,8 +1142,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "First meetings now start further along because the site, the deck, and the call tell one story. The team no longer rebuilds that story for every new buyer.",
                   "gallery": [
-                    "/img/girl.png",
-                    "/team/5.png"
+                    "/img/girl.webp",
+                    "/team/5.webp"
                   ],
                   "client": "Brightline Security",
                   "project_type": "Brand Strategy",
@@ -1152,7 +1152,7 @@
                 {
                   "slug": "digital-products",
                   "title": "Building Scalable Digital Products",
-                  "image": "/services/3.png",
+                  "image": "/services/3.webp",
                   "title_line1": "Deeper Dive Into Our Digital Product Design",
                   "title_highlight": "Masterpieces",
                   "paragraphs": [
@@ -1173,8 +1173,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "Users finish the core tasks in fewer steps. The client left with a working product, a visible list of later work, and a weekly demo rhythm they still use.",
                   "gallery": [
-                    "/img/boys.png",
-                    "/img/faq.png"
+                    "/img/boys.webp",
+                    "/img/faq.webp"
                   ],
                   "client": "Design Studio in USA",
                   "project_type": "Digital Product Design",
@@ -1183,7 +1183,7 @@
                 {
                   "slug": "creative-campaigns",
                   "title": "Creative Campaigns That Drive Results",
-                  "image": "/img/girl.png",
+                  "image": "/img/girl.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "Campaigns",
                   "paragraphs": [
@@ -1206,8 +1206,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "Two channels stayed and one was dropped on the rule we set at the start. First meetings rose from the work that remained, and the team can say why.",
                   "gallery": [
-                    "/services/2.png",
-                    "/img/girl.png"
+                    "/services/2.webp",
+                    "/img/girl.webp"
                   ],
                   "client": "Oak & Pine",
                   "project_type": "Marketing & Branding",
@@ -1216,7 +1216,7 @@
                 {
                   "slug": "it-infrastructure",
                   "title": "Modern IT Infrastructure for Growing Teams",
-                  "image": "/img/faq.png",
+                  "image": "/img/faq.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "IT Setup",
                   "paragraphs": [
@@ -1238,8 +1238,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "A new teammate now reaches a live job on the first morning. Files have one home, the backup has been restored once, and support has a name.",
                   "gallery": [
-                    "/team/6.png",
-                    "/services/1.png"
+                    "/team/6.webp",
+                    "/services/1.webp"
                   ],
                   "client": "Fieldnote Labs",
                   "project_type": "IT Solutions",
@@ -1248,7 +1248,7 @@
                 {
                   "slug": "operating-plan",
                   "title": "A One-Year Operating Plan",
-                  "image": "/team/1.png",
+                  "image": "/team/1.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "Operating Plan",
                   "paragraphs": [
@@ -1270,8 +1270,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "The first two milestones were met and the third was moved in public by a month. The monthly meeting now uses one page instead of a new story.",
                   "gallery": [
-                    "/team/1.png",
-                    "/img/boys.png"
+                    "/team/1.webp",
+                    "/img/boys.webp"
                   ],
                   "client": "Lumen Works",
                   "project_type": "Business Planning",
@@ -1280,7 +1280,7 @@
                 {
                   "slug": "sales-pipeline",
                   "title": "Sales Pipeline That Closes Faster",
-                  "image": "/team/3.png",
+                  "image": "/team/3.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "Sales Pipeline",
                   "paragraphs": [
@@ -1302,8 +1302,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "Fewer deals sit without a next step. The team can see, every Friday, which stage is where work stalls, and that is where they practice.",
                   "gallery": [
-                    "/team/3.png",
-                    "/services/3.png"
+                    "/team/3.webp",
+                    "/services/3.webp"
                   ],
                   "client": "Summit Retail",
                   "project_type": "Sales Consulting",
@@ -1312,7 +1312,7 @@
                 {
                   "slug": "cash-review",
                   "title": "Cash Review Before the Next Hire",
-                  "image": "/team/4.png",
+                  "image": "/team/4.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "Cash Review",
                   "paragraphs": [
@@ -1335,8 +1335,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "The reserve held through the season. The next hire is tied to a written stop number, and that one-page test is now how large costs get judged.",
                   "gallery": [
-                    "/team/4.png",
-                    "/img/faq.png"
+                    "/team/4.webp",
+                    "/img/faq.webp"
                   ],
                   "client": "Harbor & Co",
                   "project_type": "Financial Advisory",
@@ -1345,7 +1345,7 @@
                 {
                   "slug": "brand-system",
                   "title": "Brand System for a Growing Firm",
-                  "image": "/team/5.png",
+                  "image": "/team/5.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "Brand System",
                   "paragraphs": [
@@ -1367,8 +1367,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "Proposals and the site now describe one firm. New colleagues can use the template without inventing a new look, and clients repeat the offer line back.",
                   "gallery": [
-                    "/team/5.png",
-                    "/img/girl.png"
+                    "/team/5.webp",
+                    "/img/girl.webp"
                   ],
                   "client": "Meadow Partners",
                   "project_type": "Marketing & Branding",
@@ -1377,7 +1377,7 @@
                 {
                   "slug": "retirement-plan",
                   "title": "Retirement Plan With a Real Date",
-                  "image": "/team/6.png",
+                  "image": "/team/6.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "Retirement Plan",
                   "paragraphs": [
@@ -1399,8 +1399,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "They have a date and a yearly number, and the first year of that saving has started. The page is something they can check without rebuilding the question.",
                   "gallery": [
-                    "/team/6.png",
-                    "/team/2.png"
+                    "/team/6.webp",
+                    "/team/2.webp"
                   ],
                   "client": "Private Client",
                   "project_type": "Retirement Planning",
@@ -1409,7 +1409,7 @@
                 {
                   "slug": "investment-mix",
                   "title": "Investment Mix the Owners Can Keep",
-                  "image": "/img/testimonails.png",
+                  "image": "/img/testimonails.webp",
                   "title_line1": "Deeper Dive Into Our",
                   "title_highlight": "Investment Mix",
                   "paragraphs": [
@@ -1431,8 +1431,8 @@
                   "results_title": "The Results Of Our Project",
                   "results_text": "They held the mix through the next swing. The decision lives on one signed page, and the next look is a date, not a headline.",
                   "gallery": [
-                    "/img/testimonails.png",
-                    "/team/1.png"
+                    "/img/testimonails.webp",
+                    "/team/1.webp"
                   ],
                   "client": "Patel Family Office",
                   "project_type": "Wealth Management",
@@ -1470,7 +1470,7 @@
                 "title": "Fill Up",
                 "title_highlight": "The Form",
                 "description": "Your email address will not be published. Required fields are marked *",
-                "button_text": "Get In Touch",
+                "button_text": "Submit",
                 "placeholders": {
                   "name": "Your Name*",
                   "email": "Email Address*",
@@ -1506,7 +1506,7 @@
                 "title_line1": "Business Planning",
                 "title_highlight": "Built Around Your Goals",
                 "intro": "We write a one-year plan around revenue, costs, hiring, and the milestones your team can actually follow.",
-                "image": "/services/1.png",
+                "image": "/services/1.webp",
                 "description_title": "Description",
                 "paragraphs": [
                   "Business planning turns a loose set of ideas into a path the company can run. We look at how money comes in, where it goes, and which goals matter this year before anything is written down.",
@@ -1544,7 +1544,7 @@
                 "title_line1": "Marketing & Branding",
                 "title_highlight": "A Clearer Story",
                 "intro": "We set the offer, the audience, and the message so marketing spend has one job to do.",
-                "image": "/services/2.png",
+                "image": "/services/2.webp",
                 "description_title": "Description",
                 "paragraphs": [
                   "Marketing only works when the story matches how you actually sell. We start with the customers you want, the offer they buy, and the message you use today.",
@@ -1582,7 +1582,7 @@
                 "title_line1": "Sales Consulting",
                 "title_highlight": "A Pipeline That Moves",
                 "intro": "We fix how a lead moves from the first call to a signed agreement, with stages the whole team shares.",
-                "image": "/services/3.png",
+                "image": "/services/3.webp",
                 "description_title": "Description",
                 "paragraphs": [
                   "Most sales slow down because nobody agrees what happens next. We sit with the team, watch how leads arrive, and mark the points where deals stall.",
@@ -1620,7 +1620,7 @@
                 "title_line1": "Financial Advisory",
                 "title_highlight": "Decisions From the Numbers",
                 "intro": "We help owners read cash, margin, and reserves before the next big spend.",
-                "image": "/services/1.png",
+                "image": "/services/1.webp",
                 "description_title": "Description",
                 "paragraphs": [
                   "Financial advisory is for the decision already on the table: hire, expand, hold cash, or reinvest. We read the numbers with you before that choice is made.",
@@ -1658,7 +1658,7 @@
                 "title_line1": "Tax Planning",
                 "title_highlight": "Before the Filing",
                 "intro": "We plan taxes around income, investments, and the filings that hit this year.",
-                "image": "/services/2.png",
+                "image": "/services/2.webp",
                 "description_title": "Description",
                 "paragraphs": [
                   "Tax planning is the work you do before the return is due. We look at income, investments, and the deductions that actually apply to you.",
@@ -1695,7 +1695,7 @@
                 "title_line1": "Retirement Planning",
                 "title_highlight": "A Date You Can Use",
                 "intro": "We map the savings and income you need so retirement is a date, not a guess.",
-                "image": "/services/3.png",
+                "image": "/services/3.webp",
                 "description_title": "Description",
                 "paragraphs": [
                   "Retirement planning starts with the life you want and the income that life needs. We turn that into a savings number and a yearly pace.",
@@ -1732,7 +1732,7 @@
                 "title_line1": "Wealth Management",
                 "title_highlight": "A Mix That Fits",
                 "intro": "We look after investments, risk, and the mix that fits the life you want.",
-                "image": "/services/1.png",
+                "image": "/services/1.webp",
                 "description_title": "Description",
                 "paragraphs": [
                   "Wealth management keeps investments, cash, and risk in one view. We set a mix you can live with when markets move.",
@@ -1769,7 +1769,7 @@
                 "title_line1": "Investment Advisory",
                 "title_highlight": "Where the Money Goes",
                 "intro": "We help you choose where money goes and what return is realistic.",
-                "image": "/services/2.png",
+                "image": "/services/2.webp",
                 "description_title": "Description",
                 "paragraphs": [
                   "Investment advisory is the choice in front of you: where the next amount should go, and what return is fair to expect.",

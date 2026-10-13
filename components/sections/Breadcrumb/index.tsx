@@ -9,7 +9,7 @@ export default function Breadcrumb({ data }: BreadcrumbProps) {
   const { title, items } = data;
   return (
     <section className="relative flex h-[210px] w-full items-center overflow-hidden bg-[#541418] sm:h-[240px]">
-      <img src="/img/breadcrumb.png" alt="" className="absolute inset-0 h-full w-full object-cover object-[70%_center]" />
+      <img src="/img/breadcrumb.webp" alt="" className="absolute inset-0 h-full w-full object-cover object-[70%_center]" />
       <div className="absolute inset-0 bg-[linear-gradient(90deg,#6a1c22_0%,rgba(106,28,34,0.92)_28%,rgba(106,28,34,0.55)_52%,rgba(90,20,24,0.2)_78%,rgba(90,20,24,0.08)_100%)]" />
       <div
         className="pointer-events-none absolute inset-0 opacity-30"

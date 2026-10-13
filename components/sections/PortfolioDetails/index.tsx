@@ -43,32 +43,30 @@ export default function PortfolioDetails({ data, labels }: PortfolioDetailsProps
           <Reveal delay={0.08}>
             <motion.img src={data.image} alt="" className="mt-6 h-[280px] w-full rounded-[20px] object-cover object-top sm:h-[420px]" initial={{ scale: 1.05 }} whileInView={{ scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.7 }} />
           </Reveal>
-          <div className="mt-6 max-w-[760px] space-y-4 text-[15px] leading-7 text-[#6d6560]">
+          <div className="mt-8 space-y-5 text-[15px] leading-8 text-[#6d6560]">
             {data.paragraphs.slice(1).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           </div>
-          <div className="mt-8 grid gap-8 lg:grid-cols-2 lg:items-start">
-            <div>
-              <h3 className="text-[26px] leading-tight font-extrabold text-[#411516] sm:text-[32px]" style={{ fontWeight: 800 }}>{data.facts_title}</h3>
-              <span className="mt-3 block h-[3px] w-10 rounded-full bg-[#e2c07a]" />
-              <p className="mt-4 text-[15px] leading-7 text-[#6d6560]">{data.facts_intro}</p>
+          <div className="mt-12 border-t border-[#f0e6de] pt-10">
+            <h3 className="text-[26px] leading-tight font-extrabold text-[#411516] sm:text-[32px]" style={{ fontWeight: 800 }}>{data.facts_title}</h3>
+            <span className="mt-3 block h-[3px] w-10 rounded-full bg-[#e2c07a]" />
+            <div className="mt-5 grid gap-4 text-[15px] leading-8 text-[#6d6560] lg:grid-cols-2">
+              <p>{data.facts_intro}</p>
+              <p>{data.facts_aside}</p>
             </div>
-            <div>
-              <p className="text-[15px] leading-7 text-[#6d6560]">{data.facts_aside}</p>
-              <ul className="mt-5 grid gap-4 sm:grid-cols-2">
-                {data.facts.map((fact) => (
-                  <li key={fact} className="flex items-center gap-3 text-[14px] font-semibold text-[#2c2830]">
-                    <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-[#f8e4e2] text-[#c45a52]">
-                      <Check size={14} strokeWidth={3} />
-                    </span>
-                    {fact}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+              {data.facts.map((fact) => (
+                <li key={fact} className="flex items-center gap-3 rounded-2xl bg-[#f7f3ee] px-4 py-3 text-[14px] font-semibold text-[#2c2830]">
+                  <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-white text-[#c45a52]">
+                    <Check size={14} strokeWidth={3} />
+                  </span>
+                  {fact}
+                </li>
+              ))}
+            </ul>
           </div>
-          <h3 className="mt-8 text-[26px] leading-tight font-extrabold text-[#411516] sm:text-[30px]" style={{ fontWeight: 800 }}>{data.results_title}</h3>
+          <h3 className="mt-12 text-[26px] leading-tight font-extrabold text-[#411516] sm:text-[30px]" style={{ fontWeight: 800 }}>{data.results_title}</h3>
           <span className="mt-2 block h-[3px] w-10 rounded-full bg-[#e2c07a]" />
-          <p className="mt-4 max-w-[720px] text-[15px] leading-7 text-[#6d6560]">{data.results_text}</p>
+          <p className="mt-4 text-[15px] leading-8 text-[#6d6560]">{data.results_text}</p>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             {data.gallery.map((src) => (
               <img key={src} src={src} alt="" className="h-[200px] w-full rounded-[18px] object-cover object-top sm:h-[260px]" />

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowLeft, ArrowRight, Plus } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { TeamProps } from '../../types';
 import Reveal from '../../ui/Reveal';
 
@@ -96,13 +96,8 @@ export default function Team({ data }: TeamProps) {
                 transition={{ type: 'spring', stiffness: 320, damping: 22 }}
               >
                 <div className="overflow-hidden rounded-[22px] border border-[#efe6de] bg-white">
-                  <div className="relative">
-                    <img src={member.image} alt={member.name} className="block h-[200px] w-full object-cover object-top" />
-                    <span className="absolute right-4 bottom-0 z-10 grid h-9 w-9 translate-y-1/2 place-items-center rounded-full bg-[#411516] text-white">
-                      <Plus size={16} />
-                    </span>
-                  </div>
-                  <div className="px-4 pt-6 pb-4">
+                  <img src={member.image} alt={member.name} className="block h-[200px] w-full object-cover object-top" />
+                  <div className="px-4 pt-4 pb-4">
                     <h3 className="text-[18px] font-bold text-[#411516]">{member.name}</h3>
                     <p className="mt-1 text-[14px] text-[#9a908a]">{member.role}</p>
                     <span className="mt-3 block h-[2px] w-8 rounded-full bg-[#c6a36b]" />
