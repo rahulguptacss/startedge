@@ -67,17 +67,6 @@ export default function ServiceDetails({ data, allServices, sidebar }: ServiceDe
               })}
             </ul>
           </div>
-
-          <div className="rounded-[22px] bg-[#411516] p-6 text-white">
-            <h3 className="text-[24px] leading-tight font-extrabold" style={{ fontWeight: 800 }}>{sidebar.project_title}</h3>
-            <p className="mt-3 text-[14px] leading-6 text-white/80">{sidebar.project_text}</p>
-            <motion.div className="mt-5 w-fit" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
-              <Link href={sidebar.project_button.href} className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-[14px] font-semibold text-[#411516]">
-                {sidebar.project_button.text}
-                <ArrowRight size={15} />
-              </Link>
-            </motion.div>
-          </div>
         </aside>
       </div>
     </section>
