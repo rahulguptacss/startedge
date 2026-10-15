@@ -49,7 +49,7 @@ export default function Footer({ data }: { data: FooterData }) {
   return (
     <footer className="bg-[#411516] text-white">
       <div className="mx-auto flex max-w-[1240px] flex-col gap-2 px-4 py-8 lg:flex-row lg:items-start lg:justify-between lg:gap-10 lg:py-12">
-        <Reveal className="mb-4 w-full shrink-0 lg:mb-0 lg:max-w-[230px]">
+        <Reveal className="mb-4 w-full shrink-0 lg:mb-0 lg:max-w-[300px]">
           <Brand src={data.logo} alt={data.logo_text} />
           <p className="mt-4 text-[14px] leading-6 text-white/80">{data.description}</p>
           <div className="mt-5 flex gap-2.5 text-white">
@@ -67,8 +67,7 @@ export default function Footer({ data }: { data: FooterData }) {
         </Reveal>
         <Column title={data.headings.quick_links} links={data.quick_links} delay={0.05} />
         <Column title={data.headings.our_services} links={data.our_services} delay={0.1} />
-        <Column title={data.headings.company} links={data.company} delay={0.15} />
-        <Reveal delay={0.2} className="w-full shrink-0 border-b border-white/15 lg:max-w-[280px] lg:border-0">
+        <Reveal delay={0.15} className="w-full shrink-0 border-b border-white/15 lg:max-w-[300px] lg:border-0">
           <button type="button" onClick={() => setContactOpen((value) => !value)} className="flex w-full items-center justify-between py-3.5 lg:hidden">
             <span className="text-[18px] font-bold text-[#e2c07a]">{data.headings.contact}</span>
             <ChevronDown size={18} className={`text-[#e2c07a] transition-transform ${contactOpen ? 'rotate-180' : ''}`} />
