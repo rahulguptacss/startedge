@@ -37,17 +37,17 @@ export default function Testimonials({ data }: TestimonialsProps) {
   }, [start, total]);
 
   return (
-    <section className="bg-white px-3 py-12 sm:px-4 sm:py-14">
+    <section id="testimonials" className="bg-white px-3 py-12 scroll-mt-[72px] sm:px-4 sm:py-14 lg:scroll-mt-[100px]">
       <Reveal className="mx-auto grid w-full max-w-[1240px] items-stretch gap-6 lg:grid-cols-[65%_35%] lg:gap-6">
         <div className="min-w-0">
           <div className="flex items-center">
             <span className="h-[2px] w-7 rounded-full bg-[#c6a36b]" />
-            <span className="rounded-full border border-[#c6a36b] px-4 py-1.5 text-[12px] font-semibold tracking-[0.18em] text-[#411516] uppercase">
+            <span className="rounded-full border border-[#c6a36b] px-4 py-1.5 text-[12px] font-semibold tracking-[0.18em] text-[#0b1e36] uppercase">
               {data.subtitle}
             </span>
             <span className="h-[2px] w-14 rounded-full bg-[#c6a36b]" />
           </div>
-          <h2 className="mt-4 text-[34px] leading-[1.12] font-extrabold tracking-[-0.02em] text-[#411516] sm:text-[42px]" style={{ fontWeight: 800 }}>
+          <h2 className="mt-4 text-[34px] leading-[1.12] font-extrabold tracking-[-0.02em] text-[#0b1e36] sm:text-[42px]" style={{ fontWeight: 800 }}>
             {data.title_line1}
             <span className="block text-[#c4a15a]">{data.title_highlight}</span>
           </h2>
@@ -60,7 +60,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
             >
               {loop.map((review, index) => (
                 <article key={`${review.author}-${index}`} className="shrink-0 px-1" style={{ width: `${100 / visible}%` }}>
-                  <div className="h-full rounded-[18px] border border-[#f3e6dc] bg-white p-4">
+                  <div className="h-full rounded-[18px] border border-slate-100 bg-[#f8fafc] p-4">
                     <div className="flex items-center gap-3">
                       <img src={review.avatar} alt="" className="h-12 w-12 shrink-0 rounded-full object-cover" />
                       <span className="flex text-[#e0b04a]">
@@ -68,10 +68,10 @@ export default function Testimonials({ data }: TestimonialsProps) {
                           <Star key={i} size={15} fill="currentColor" />
                         ))}
                       </span>
-                      <span className="ml-auto font-serif text-[34px] leading-none text-[#ead9cb]">”</span>
+                      <span className="ml-auto font-serif text-[34px] leading-none text-slate-200">”</span>
                     </div>
                     <p className="mt-4 text-[14px] leading-6 text-[#6b645f]">“{review.text}”</p>
-                    <h3 className="mt-4 text-[15px] font-bold text-[#411516]">{review.author}</h3>
+                    <h3 className="mt-4 text-[15px] font-bold text-[#0b1e36]">{review.author}</h3>
                     <p className="mt-0.5 text-[13px] text-[#9a908a]">{review.role}</p>
                   </div>
                 </article>
@@ -88,7 +88,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
                   setSmooth(true);
                   setStart(index);
                 }}
-                className={`h-2.5 w-2.5 rounded-full ${index === start % total ? 'bg-[#411516]' : 'bg-[#e4d5c8]'}`}
+                className={`h-2.5 w-2.5 rounded-full ${index === start % total ? 'bg-[#0b1e36]' : 'bg-slate-200'}`}
               />
             ))}
           </div>

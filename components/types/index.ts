@@ -8,6 +8,9 @@ export interface LinkType {
 
 export interface HeaderData {
   logo: string;
+  logo_image?: string;
+  logo_white?: string;
+  logo_dark?: string;
   logo_text: string;
   links: LinkType[];
   phone: string;
@@ -17,6 +20,9 @@ export interface HeaderData {
 
 export interface FooterData {
   logo: string;
+  logo_image?: string;
+  logo_white?: string;
+  logo_dark?: string;
   logo_text: string;
   description: string;
   quick_links: LinkType[];
@@ -36,6 +42,7 @@ export interface HeroSectionData {
   title_line2: string;
   description: string;
   button: { text: string; href: string };
+  button_secondary?: { text: string; href: string };
   image: string;
 }
 
@@ -70,6 +77,7 @@ export interface ServiceItem {
   image: string;
   link: string;
   icon: string;
+  button_text?: string;
 }
 
 export interface ServicesSectionData {
@@ -77,8 +85,17 @@ export interface ServicesSectionData {
   title_line1: string;
   title_highlight: string;
   description: string;
-  button: { text: string; href: string };
+  button?: { text: string; href: string };
+  button_text?: string;
+  card_button_text?: string;
   items: ServiceItem[];
+}
+
+export interface TeamMember {
+  name: string;
+  role: string;
+  image: string;
+  socials?: { name: string; href: string; icon?: string }[];
 }
 
 export interface TeamSectionData {
@@ -89,7 +106,8 @@ export interface TeamSectionData {
   title_highlight: string;
   description: string;
   button: { text: string; href: string };
-  members: { name: string; role: string; image: string }[];
+  socials?: { name: string; href: string; icon?: string }[];
+  members: TeamMember[];
 }
 
 export interface FaqSectionData {
@@ -177,7 +195,7 @@ export interface ContactSectionData {
   title_highlight: string;
   description: string;
   map_embed: string;
-  cards: { icon: string; title: string; lines: string[]; href?: string }[];
+  cards?: { icon: string; title: string; lines: string[]; href?: string }[];
   form: {
     subtitle: string;
     title: string;
@@ -186,6 +204,8 @@ export interface ContactSectionData {
     button_text: string;
     placeholders: { name: string; email: string; phone: string; subject: string; message: string };
     subjects: string[];
+    success_title?: string;
+    success_message?: string;
   };
 }
 

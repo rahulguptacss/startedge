@@ -47,10 +47,10 @@ function Column({ title, links, delay = 0 }: { title: string; links: LinkType[];
 export default function Footer({ data }: { data: FooterData }) {
   const [contactOpen, setContactOpen] = useState(false);
   return (
-    <footer className="bg-[#411516] text-white">
+    <footer className="bg-[#0b1e36] text-white">
       <div className="mx-auto flex max-w-[1240px] flex-col gap-2 px-4 py-8 lg:flex-row lg:items-start lg:justify-between lg:gap-10 lg:py-12">
         <Reveal className="mb-4 w-full shrink-0 lg:mb-0 lg:max-w-[300px]">
-          <Brand src={data.logo} alt={data.logo_text} />
+          <Brand src={data.logo_image || data.logo} alt={data.logo_text} />
           <p className="mt-4 text-[14px] leading-6 text-white/80">{data.description}</p>
           <div className="mt-5 flex gap-2.5 text-white">
             {[
@@ -76,15 +76,15 @@ export default function Footer({ data }: { data: FooterData }) {
           <span className="mt-2 hidden h-[2px] w-8 rounded-full bg-[#e2c07a] lg:block" />
           <Panel open={contactOpen} className="space-y-4 pb-4 text-[14px] lg:mt-5 lg:pb-0">
             <li className="flex gap-3">
-              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-[#e2c07a] text-[#411516]"><MapPin size={15} /></span>
+              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-[#e2c07a] text-[#0b1e36]"><MapPin size={15} /></span>
               <span><span className="block font-semibold">{data.contact_labels.address}</span><span className="text-white/80">{data.contact.address}</span></span>
             </li>
             <li className="flex gap-3">
-              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-[#e2c07a] text-[#411516]"><Mail size={15} /></span>
+              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-[#e2c07a] text-[#0b1e36]"><Mail size={15} /></span>
               <span><span className="block font-semibold">{data.contact_labels.email}</span><a href={`mailto:${data.contact.email}`} className="text-white/80">{data.contact.email}</a></span>
             </li>
             <li className="flex gap-3">
-              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-[#e2c07a] text-[#411516]"><Phone size={15} /></span>
+              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-[#e2c07a] text-[#0b1e36]"><Phone size={15} /></span>
               <span><span className="block font-semibold">{data.contact_labels.phone}</span><a href={`tel:${data.contact.phone.replace(/[^\d+]/g, '')}`} className="text-white/80">{data.contact.phone}</a></span>
             </li>
           </Panel>

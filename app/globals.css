@@ -2,10 +2,11 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #2b2422;
-  --maroon: #411516;
+  --foreground: #1e293b;
+  --primary: #0b1e36;
+  --navy: #0b1e36;
   --gold: #c6a36b;
-  --cream: #f7f3ee;
+  --cream: #f4f7fb;
 }
 
 @theme inline {
@@ -13,6 +14,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-manrope), Arial, sans-serif;
   --font-serif: var(--font-manrope), Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,

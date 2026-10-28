@@ -2,118 +2,121 @@
   "common": {
     "Header": {
       "logo": "/logo/whitelogo.webp",
-      "logo_text": "FinTrust",
+      "logo_text": "StratEdge",
       "links": [
         {
           "name": "Home",
-          "href": "/",
+          "href": "#home",
           "active": true
         },
         {
           "name": "About",
-          "href": "/about"
+          "href": "#about"
         },
         {
           "name": "Services",
-          "href": "/services"
+          "href": "#services"
         },
         {
           "name": "Portfolio",
-          "href": "/portfolio"
+          "href": "#portfolio"
         },
         {
-          "name": "Blog",
-          "href": "/blog"
+          "name": "Team",
+          "href": "#team"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "FAQ",
+          "href": "#faq"
         },
         {
           "name": "Contact",
-          "href": "/contact"
+          "href": "#contact"
         }
       ],
       "phone": "+100000000000",
-      "button_text": "Call Now",
-      "button_link": "tel:+100000000000"
+      "button_text": "Get In Touch",
+      "button_link": "#contact",
+      "logo_image": "/logo/whitelogo.webp",
+      "logo_white": "/logo/whitelogo.webp",
+      "logo_dark": "/logo/logo.webp"
     },
     "Footer": {
       "logo": "/logo/whitelogo.webp",
-      "logo_text": "FinTrust",
-      "description": "Your Trusted Partner for Smarter Financial Planning and a Brighter Tomorrow.",
+      "logo_text": "StratEdge",
+      "description": "StratEdge is a premier strategic advisory firm providing comprehensive corporate tax optimization, proactive accounting, and wealth management solutions.",
       "quick_links": [
         {
           "name": "Home",
-          "href": "/"
+          "href": "#home"
         },
         {
           "name": "About Us",
-          "href": "/about"
+          "href": "#about"
         },
         {
           "name": "Services",
-          "href": "/services"
+          "href": "#services"
         },
         {
           "name": "Portfolio",
-          "href": "/portfolio"
+          "href": "#portfolio"
         },
         {
-          "name": "Blog",
-          "href": "/blog"
+          "name": "Our Team",
+          "href": "#team"
         },
         {
           "name": "Contact Us",
-          "href": "/contact"
+          "href": "#contact"
         }
       ],
       "our_services": [
         {
-          "name": "Financial Planning",
-          "href": "/services/business-planning"
+          "name": "Tax Strategy & Optimization",
+          "href": "#services"
         },
         {
-          "name": "Investment Advisory",
-          "href": "/services/financial-advisory"
+          "name": "Corporate Financial Advisory",
+          "href": "#services"
         },
         {
-          "name": "Wealth Management",
-          "href": "/services/sales-consulting"
+          "name": "Strategic Wealth Management",
+          "href": "#services"
         },
         {
-          "name": "Retirement Planning",
-          "href": "/services/business-planning"
+          "name": "Business Restructuring & M&A",
+          "href": "#services"
         },
         {
-          "name": "Tax Planning",
-          "href": "/services/financial-advisory"
-        },
-        {
-          "name": "Business Consulting",
-          "href": "/services/marketing-branding"
+          "name": "Risk Mitigation & Audit",
+          "href": "#services"
         }
       ],
       "company": [
         {
-          "name": "About Us",
-          "href": "/about"
+          "name": "About StratEdge",
+          "href": "#about"
         },
         {
-          "name": "Our Team",
-          "href": "/about"
+          "name": "Executive Leadership",
+          "href": "#team"
         },
         {
-          "name": "Careers",
-          "href": "/contact"
+          "name": "Client Case Studies",
+          "href": "#portfolio"
         },
         {
-          "name": "Testimonials",
-          "href": "/#testimonials"
+          "name": "Client Perspectives",
+          "href": "#testimonials"
         },
         {
-          "name": "FAQs",
-          "href": "/#faq"
-        },
-        {
-          "name": "Latest News",
-          "href": "/blog"
+          "name": "Advisory FAQs",
+          "href": "#faq"
         }
       ],
       "contact": {
@@ -134,11 +137,26 @@
       },
       "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
       "socials": [
-        { "name": "Facebook", "href": "https://facebook.com" },
-        { "name": "Instagram", "href": "https://instagram.com" },
-        { "name": "LinkedIn", "href": "https://linkedin.com" },
-        { "name": "YouTube", "href": "https://youtube.com" }
-      ]
+        {
+          "name": "Facebook",
+          "href": "https://facebook.com"
+        },
+        {
+          "name": "Instagram",
+          "href": "https://instagram.com"
+        },
+        {
+          "name": "LinkedIn",
+          "href": "https://linkedin.com"
+        },
+        {
+          "name": "YouTube",
+          "href": "https://youtube.com"
+        }
+      ],
+      "logo_image": "/logo/whitelogo.webp",
+      "logo_white": "/logo/whitelogo.webp",
+      "logo_dark": "/logo/logo.webp"
     }
   },
   "categories": {
@@ -150,7 +168,7 @@
               "title": "Home",
               "pageName": "Home",
               "metadata": {
-                "title": "FinTrust - Build a Brighter Financial Future"
+                "title": "StratEdge - Strategic Tax & Financial Advisory"
               },
               "components": [
                 {
@@ -166,49 +184,8 @@
                   "component": "Services"
                 },
                 {
-                  "key": "TeamSection",
-                  "component": "Team"
-                },
-                {
-                  "key": "FaqSection",
-                  "component": "Faq"
-                },
-                {
-                  "key": "TestimonialsSection",
-                  "component": "Testimonials"
-                },
-                {
-                  "key": "BlogsSection",
-                  "component": "Blogs"
-                }
-              ]
-            },
-            "about": {
-              "title": "About Us",
-              "pageName": "About Us",
-              "metadata": {
-                "title": "About Us - FinTrust"
-              },
-              "breadcrumb": {
-                "title": "About Us",
-                "items": [
-                  {
-                    "label": "Home",
-                    "href": "/"
-                  },
-                  {
-                    "label": "About Us"
-                  }
-                ]
-              },
-              "components": [
-                {
-                  "key": "BreadcrumbSection",
-                  "component": "Breadcrumb"
-                },
-                {
-                  "key": "AboutSection",
-                  "component": "About"
+                  "key": "PortfolioSection",
+                  "component": "Portfolio"
                 },
                 {
                   "key": "CtaSection",
@@ -217,1596 +194,359 @@
                 {
                   "key": "TeamSection",
                   "component": "Team"
-                }
-              ]
-            },
-            "services": {
-              "title": "Our Services",
-              "pageName": "Services",
-              "metadata": {
-                "title": "Services - FinTrust"
-              },
-              "breadcrumb": {
-                "title": "Our Services",
-                "items": [
-                  {
-                    "label": "Home",
-                    "href": "/"
-                  },
-                  {
-                    "label": "Services"
-                  }
-                ]
-              },
-              "components": [
-                {
-                  "key": "BreadcrumbSection",
-                  "component": "Breadcrumb"
                 },
                 {
-                  "key": "ServicesSection",
-                  "component": "Services"
-                }
-              ]
-            },
-            "service_details": {
-              "title": "Service Details",
-              "pageName": "Service Details",
-              "metadata": {
-                "title": "Service Details - FinTrust"
-              },
-              "breadcrumb": {
-                "title": "Service Detail",
-                "items": [
-                  {
-                    "label": "Home",
-                    "href": "/"
-                  },
-                  {
-                    "label": "Service Detail"
-                  }
-                ]
-              },
-              "components": [
-                {
-                  "key": "BreadcrumbSection",
-                  "component": "Breadcrumb"
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
                 },
                 {
-                  "key": "ServiceDetailsSection",
-                  "component": "ServiceDetails"
-                }
-              ]
-            },
-            "portfolio": {
-              "title": "Portfolio",
-              "pageName": "Portfolio",
-              "metadata": {
-                "title": "Portfolio - FinTrust"
-              },
-              "breadcrumb": {
-                "title": "Portfolio",
-                "items": [
-                  {
-                    "label": "Home",
-                    "href": "/"
-                  },
-                  {
-                    "label": "Portfolio"
-                  }
-                ]
-              },
-              "components": [
-                {
-                  "key": "BreadcrumbSection",
-                  "component": "Breadcrumb"
-                },
-                {
-                  "key": "PortfolioSection",
-                  "component": "Portfolio"
-                }
-              ]
-            },
-            "portfolio_detail": {
-              "title": "Portfolio Detail",
-              "pageName": "Portfolio Detail",
-              "metadata": {
-                "title": "Portfolio Detail - FinTrust"
-              },
-              "breadcrumb": {
-                "title": "Portfolio Detail",
-                "items": [
-                  {
-                    "label": "Home",
-                    "href": "/"
-                  },
-                  {
-                    "label": "Portfolio Detail"
-                  }
-                ]
-              },
-              "components": [
-                {
-                  "key": "BreadcrumbSection",
-                  "component": "Breadcrumb"
-                },
-                {
-                  "key": "PortfolioDetailsSection",
-                  "component": "PortfolioDetails"
-                }
-              ]
-            },
-            "blog": {
-              "title": "News & Blogs",
-              "pageName": "Blog",
-              "metadata": {
-                "title": "Blog - FinTrust"
-              },
-              "breadcrumb": {
-                "title": "News & Blogs",
-                "items": [
-                  {
-                    "label": "Home",
-                    "href": "/"
-                  },
-                  {
-                    "label": "Blog"
-                  }
-                ]
-              },
-              "components": [
-                {
-                  "key": "BreadcrumbSection",
-                  "component": "Breadcrumb"
-                },
-                {
-                  "key": "BlogsSection",
-                  "component": "Blogs"
-                }
-              ]
-            },
-            "blog_details": {
-              "title": "Blog Details",
-              "pageName": "Blog Details",
-              "metadata": {
-                "title": "Blog - FinTrust"
-              },
-              "breadcrumb": {
-                "title": "Blog Detail",
-                "items": [
-                  {
-                    "label": "Home",
-                    "href": "/"
-                  },
-                  {
-                    "label": "Blog Detail"
-                  }
-                ]
-              },
-              "components": [
-                {
-                  "key": "BreadcrumbSection",
-                  "component": "Breadcrumb"
-                },
-                {
-                  "key": "BlogDetailsSection",
-                  "component": "BlogDetails"
-                }
-              ]
-            },
-            "contact": {
-              "title": "Contact Us",
-              "pageName": "Contact",
-              "metadata": {
-                "title": "Contact - FinTrust"
-              },
-              "breadcrumb": {
-                "title": "Contact",
-                "items": [
-                  {
-                    "label": "Home",
-                    "href": "/"
-                  },
-                  {
-                    "label": "Contact"
-                  }
-                ]
-              },
-              "components": [
-                {
-                  "key": "BreadcrumbSection",
-                  "component": "Breadcrumb"
+                  "key": "FaqSection",
+                  "component": "Faq"
                 },
                 {
                   "key": "ContactSection",
                   "component": "Contact"
                 }
               ]
-            },
-            "thank_you": {
-              "title": "Thank You",
-              "pageName": "Thank You",
-              "metadata": {
-                "title": "Thank You - FinTrust"
-              },
-              "components": [
-                {
-                  "key": "ThankYouSection",
-                  "component": "ThankYou"
-                }
-              ]
             }
           },
           "sections": {
             "hero": {
-              "eyebrow": "Your Goals Our Guidance",
-              "title_line1": "Build a",
-              "title_highlight": "Brighter",
-              "title_line2": "Financial Future",
-              "description": "Smart strategies, expert advice, and personalized solutions to help you achieve your financial goals with confidence.",
+              "eyebrow": "Strategic Tax & Financial Advisory",
+              "title_line1": "Strategic Tax &",
+              "title_highlight": "Wealth Solutions",
+              "title_line2": "For Modern Businesses",
+              "description": "StratEdge delivers institutional-grade tax optimization, proactive accounting, and bespoke wealth strategies engineered to protect assets and drive growth.",
               "button": {
-                "text": "Contact Us",
-                "href": "/contact"
+                "text": "Schedule Consultation",
+                "href": "#contact"
+              },
+              "button_secondary": {
+                "text": "Explore Services",
+                "href": "#services"
               },
               "image": "/banner/herobanner.webp"
             },
             "about": {
-              "subtitle": "About Us",
-              "title_line1": "The Journey Behind Our",
-              "title_highlight": "Business Success",
-              "description": "We are committed to helping individuals and businesses achieve their financial goals through expert guidance, tailored strategies, and unwavering support.",
-              "image": "/img/boys.webp",
-              "image_secondary": "/img/girl.webp",
+              "subtitle": "About StratEdge",
+              "title_line1": "Strategic Financial &",
+              "title_highlight": "Tax Advisory Leaders",
+              "description": "At StratEdge, we combine decades of regulatory acumen with forward-thinking financial intelligence. From proactive tax compliance and corporate structuring to wealth preservation, we ensure every decision accelerates your long-term success.",
+              "image": "/img/about_primary.webp",
+              "image_secondary": "/img/about_secondary.webp",
               "cards": [
                 {
-                  "title": "Strategic Financial Planning",
-                  "description": "We create personalized strategies to help you grow, protect, and manage your wealth for a secure future.",
+                  "title": "Proactive Tax Optimization",
+                  "description": "Customized tax structures, audit defense, and seamless compliance that minimize liabilities and safeguard profitability.",
                   "icon": "TrendingUp"
                 },
                 {
-                  "title": "Trusted Expert Support",
-                  "description": "Our experienced team provides reliable advice and continuous support at every step of your financial journey.",
+                  "title": "Dedicated Wealth Strategy",
+                  "description": "Comprehensive asset allocation, investment advisory, and risk management tailored for enduring financial strength.",
                   "icon": "Handshake"
                 }
               ],
               "stats": [
                 {
-                  "value": "27+",
-                  "label": "Years of Experience"
+                  "value": "25+",
+                  "label": "Years of Excellence"
                 },
                 {
-                  "value": "500+",
-                  "label": "Clients Trust Us"
+                  "value": "1,200+",
+                  "label": "Clients Advised"
                 },
                 {
-                  "value": "95%",
-                  "label": "Client Satisfaction"
+                  "value": "99%",
+                  "label": "Client Retention"
                 }
               ]
             },
             "cta": {
-              "eyebrow": "Let's Work Together",
-              "title_line1": "Ready to Take Your Business",
-              "title_line2": "to the",
-              "title_highlight": "Next Level?",
-              "description": "Get expert guidance, tailored strategies, and practical solutions to help you achieve your business goals. Let's discuss how we can create value for your growth.",
+              "eyebrow": "Partner With StratEdge",
+              "title_line1": "Ready to Optimize Your",
+              "title_line2": "Taxes & Accelerate Your",
+              "title_highlight": "Financial Future?",
+              "description": "Connect with our senior partners today for a confidential, high-impact strategic advisory session.",
               "button": {
-                "text": "Get a Free Consultation",
-                "href": "/contact"
+                "text": "Book Advisory Session",
+                "href": "#contact"
               },
-              "phone_label": "Call Us Now",
+              "phone_label": "Call Our Advisors",
               "phone": "+100000000000",
-              "email_label": "Email Us",
+              "email_label": "Direct Inquiries",
               "email": "info@xyz.com",
               "image": "/img/cta.webp"
             },
             "services": {
-              "subtitle": "Services",
-              "title_line1": "Empower Your Business",
-              "title_highlight": "To Succeed & Grow.",
-              "description": "We provide expert consultancy services designed to help businesses grow, optimize operations, and achieve long-term success. Our tailored solutions ensure real results.",
-              "button": {
-                "text": "More Services",
-                "href": "/services"
-              },
+              "subtitle": "Our Services",
+              "title_line1": "Empowering Your Business With",
+              "title_highlight": "Strategic Precision",
+              "description": "From complex multi-jurisdictional tax planning to executive wealth management and M&A transactions, StratEdge provides tailored solutions that yield measurable results.",
+              "card_button_text": "Get In Touch",
+              "button_text": "Get In Touch",
               "items": [
                 {
-                  "title": "Business Planning",
-                  "description": "We help you create clear, strategic business plans to drive growth, improve efficiency, and achieve long-term success.",
+                  "title": "Tax Strategy & Optimization",
+                  "description": "Advanced domestic and international tax structures designed to minimize overall tax liability while ensuring airtight regulatory compliance.",
                   "image": "/services/1.webp",
-                  "link": "/services/business-planning",
+                  "link": "#contact",
                   "icon": "TrendingUp"
                 },
                 {
-                  "title": "Marketing & Branding",
-                  "description": "We develop result-driven marketing strategies to strengthen your brand presence and connect you with the right audience.",
+                  "title": "Corporate Financial Advisory",
+                  "description": "Strategic CFO advisory, cash flow forecasting, debt syndication, and financial modeling for scaling enterprises.",
                   "image": "/services/2.webp",
-                  "link": "/services/marketing-branding",
-                  "icon": "Megaphone"
-                },
-                {
-                  "title": "Sales Consulting",
-                  "description": "We provide expert sales consulting to improve your sales process, boost team performance, and maximize revenue.",
-                  "image": "/services/3.webp",
-                  "link": "/services/sales-consulting",
-                  "icon": "Users"
-                },
-                {
-                  "title": "Financial Advisory",
-                  "description": "Guidance on cash, investments, and the numbers behind every big decision.",
-                  "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=80",
-                  "link": "/services/financial-advisory",
+                  "link": "#contact",
                   "icon": "LineChart"
                 },
                 {
-                  "title": "Tax Planning",
-                  "description": "We plan taxes around your income, investments, and the filings that affect this year.",
-                  "image": "/services/2.webp",
-                  "link": "/services/tax-planning",
+                  "title": "Strategic Wealth Management",
+                  "description": "Bespoke capital preservation, asset allocation, private equity insights, and risk mitigation for family offices and executives.",
+                  "image": "/services/3.webp",
+                  "link": "#contact",
                   "icon": "TrendingUp"
                 },
                 {
-                  "title": "Retirement Planning",
-                  "description": "We map the savings and income you need so retirement is a date, not a guess.",
-                  "image": "/services/3.webp",
-                  "link": "/services/retirement-planning",
+                  "title": "Business Restructuring & M&A",
+                  "description": "End-to-end deal structuring, financial due diligence, entity reorganization, and post-merger integration support.",
+                  "image": "/services/4.webp",
+                  "link": "#contact",
                   "icon": "Users"
                 },
                 {
-                  "title": "Wealth Management",
-                  "description": "We look after investments, risk, and the mix that fits the life you want.",
-                  "image": "/services/1.webp",
-                  "link": "/services/wealth-management",
+                  "title": "Risk Mitigation & Regulatory Audit",
+                  "description": "Comprehensive forensic audits, internal control frameworks, and authoritative representation before taxation boards.",
+                  "image": "/services/5.webp",
+                  "link": "#contact",
                   "icon": "Megaphone"
-                },
-                {
-                  "title": "Investment Advisory",
-                  "description": "We help you choose where money goes and what return is realistic.",
-                  "image": "/services/2.webp",
-                  "link": "/services/investment-advisory",
-                  "icon": "TrendingUp"
                 }
               ]
             },
             "team": {
-              "subtitle": "Top Consultant",
-              "title_line1": "Enhance Your Experience With",
-              "title_mobile_line1": "Enhance Your Experience",
-              "title_mobile_prefix": "With",
-              "title_highlight": "Expert Consulting",
-              "description": "Our experienced consultants are here to guide you with the right strategies, practical solutions, and personalized support to help your business grow.",
+              "subtitle": "Team",
+              "title_line1": "Meet Our Senior",
+              "title_mobile_line1": "Meet Our Senior",
+              "title_mobile_prefix": "Strategists at",
+              "title_highlight": "StratEdge",
+              "description": "Our multidisciplinary partners combine decades of chartered accountancy, corporate finance, and legal compliance expertise to navigate your most critical milestones.",
               "button": {
-                "text": "View All Team",
-                "href": "/about"
+                "text": "Get In Touch",
+                "href": "#contact"
               },
               "members": [
                 {
-                  "name": "Priya Sharma",
-                  "role": "Business Consultant",
-                  "image": "/team/2.webp"
+                  "name": "Vikram Malhotra",
+                  "role": "Managing Partner & Tax Strategist",
+                  "image": "/team/1.webp",
+                  "socials": [
+                    {
+                      "name": "LinkedIn",
+                      "href": "https://linkedin.com"
+                    },
+                    {
+                      "name": "X",
+                      "href": "https://x.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://instagram.com"
+                    }
+                  ]
                 },
                 {
-                  "name": "Rahul Mehta",
-                  "role": "Strategy Consultant",
-                  "image": "/team/3.webp"
+                  "name": "Ananya Sharma",
+                  "role": "Partner - M&A & Corporate Finance",
+                  "image": "/team/2.webp",
+                  "socials": [
+                    {
+                      "name": "LinkedIn",
+                      "href": "https://linkedin.com"
+                    },
+                    {
+                      "name": "X",
+                      "href": "https://x.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://instagram.com"
+                    }
+                  ]
                 },
                 {
-                  "name": "Ananya Iyer",
-                  "role": "Marketing Consultant",
-                  "image": "/team/5.webp"
+                  "name": "Rajesh Iyer",
+                  "role": "Director of Wealth & Asset Strategy",
+                  "image": "/team/3.webp",
+                  "socials": [
+                    {
+                      "name": "LinkedIn",
+                      "href": "https://linkedin.com"
+                    },
+                    {
+                      "name": "X",
+                      "href": "https://x.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://instagram.com"
+                    }
+                  ]
                 },
                 {
-                  "name": "Amit Verma",
-                  "role": "IT Consultant",
-                  "image": "/team/6.webp"
+                  "name": "Priya Nair",
+                  "role": "Director of Forensic Audit & Governance",
+                  "image": "/team/4.webp",
+                  "socials": [
+                    {
+                      "name": "LinkedIn",
+                      "href": "https://linkedin.com"
+                    },
+                    {
+                      "name": "X",
+                      "href": "https://x.com"
+                    },
+                    {
+                      "name": "Instagram",
+                      "href": "https://instagram.com"
+                    }
+                  ]
+                }
+              ],
+              "socials": [
+                {
+                  "name": "LinkedIn",
+                  "href": "https://linkedin.com"
                 },
                 {
-                  "name": "Arjun Singh",
-                  "role": "Financial Advisor",
-                  "image": "/team/1.webp"
+                  "name": "X",
+                  "href": "https://x.com"
                 },
                 {
-                  "name": "Vikram Patel",
-                  "role": "Sales Consultant",
-                  "image": "/team/4.webp"
+                  "name": "Instagram",
+                  "href": "https://instagram.com"
                 }
               ]
             },
             "faq": {
-              "subtitle": "Faq's",
-              "title_line1": "Frequently",
-              "title_highlight": "Ask Questions",
-              "description": "Find quick answers to common questions about our consulting services, process, and how we help businesses grow.",
+              "subtitle": "Frequently Asked Questions",
+              "title_line1": "Got Questions? StratEdge Has",
+              "title_highlight": "Clear Answers",
+              "description": "Find concise answers about our tax optimization, corporate financial advisory, and wealth governance practices.",
               "image": "/img/faq.webp",
               "items": [
                 {
-                  "question": "What consulting services do you offer?",
-                  "answer": "We offer business strategy, IT solutions, digital transformation, marketing consulting, and operational improvement services tailored to your business needs."
+                  "question": "How does StratEdge help optimize corporate and personal taxes?",
+                  "answer": "StratEdge designs proactive, legally compliant tax blueprints that leverage entity restructuring, capital allowances, deductions, and cross-border planning to minimize total liabilities."
                 },
                 {
-                  "question": "How can consulting help my business?",
-                  "answer": "Consulting helps you spot gaps, set a clear plan, and improve how the team works so growth is steady and measurable."
+                  "question": "What financial advisory services does StratEdge specialize in?",
+                  "answer": "Our core expertise covers fractional CFO services, cash flow forecasting, debt syndication, mergers & acquisitions (M&A) due diligence, and capital allocation for sustainable enterprise growth."
                 },
                 {
-                  "question": "What industries do you work with?",
-                  "answer": "We work with professional services, retail, technology, and growing companies that want practical advice."
+                  "question": "How does StratEdge protect businesses during audits and regulatory reviews?",
+                  "answer": "Our certified tax specialists provide complete audit representation, documentation defense, and proactive compliance reviews to ensure zero penalty exposure."
                 },
                 {
-                  "question": "How do I get started with your services?",
-                  "answer": "Share a short note about your business. We set a call, understand the goal, and outline the first step."
-                },
-                {
-                  "question": "Do you provide ongoing support?",
-                  "answer": "Yes. After the first plan we stay available for reviews, follow-ups, and support as the business grows."
+                  "question": "What is the onboarding process for new StratEdge advisory clients?",
+                  "answer": "We initiate with a confidential diagnostic assessment of your financial and tax landscape, deliver a bespoke 90-day strategic roadmap, and assign a dedicated advisory team to execute it."
                 }
               ]
             },
             "testimonials": {
-              "subtitle": "Testimonial",
-              "title_line1": "What Our Customers",
-              "title_highlight": "Say About Us",
-              "description": "Our clients' success stories reflect our commitment, expertise, and dedication to delivering real results. Here's what they have to say about working with us.",
+              "subtitle": "Client Perspectives",
+              "title_line1": "What Business Leaders",
+              "title_highlight": "Say About StratEdge",
+              "description": "Trusted by publicly traded corporations, family offices, and high-growth founders across the nation.",
               "image": "/img/testimonails.webp",
               "reviews": [
                 {
-                  "text": "Their strategic advice helped us streamline our operations and significantly improve our business growth.",
-                  "author": "Priya Sharma",
-                  "role": "CEO, TechSolutions",
+                  "author": "Sanjay Singhania",
+                  "role": "Managing Director, Apex Global",
+                  "avatar": "/team/1.webp",
+                  "rating": 5,
+                  "text": "StratEdge restructured our international corporate tax framework, uncovering substantial efficiencies while tightening compliance. Their strategic guidance has been indispensable."
+                },
+                {
+                  "author": "Meera Krishnan",
+                  "role": "Chief Financial Officer, Zenith Tech",
                   "avatar": "/team/2.webp",
-                  "rating": 5
+                  "rating": 5,
+                  "text": "The depth of financial acumen at StratEdge is extraordinary. They do not just review balance sheets; they engineer growth pathways for our executive leadership team."
                 },
                 {
-                  "text": "Professional, knowledgeable, and truly supportive. Their team understood our needs and delivered the best solutions.",
-                  "author": "Rahul Mehta",
-                  "role": "Founder, GrowthHub",
+                  "author": "Vikrant Oberoi",
+                  "role": "Principal, Oberoi Family Office",
                   "avatar": "/team/3.webp",
-                  "rating": 5
-                },
-                {
-                  "text": "Excellent service and outstanding results. They have been a valuable partner in our success journey.",
-                  "author": "Anjali Verma",
-                  "role": "Marketing Head, BrightMedia",
-                  "avatar": "/team/5.webp",
-                  "rating": 5
-                },
-                {
-                  "text": "Clear advice and a plan we could follow. The team stayed with us through every review.",
-                  "author": "Amit Verma",
-                  "role": "Director, Northline",
-                  "avatar": "/team/6.webp",
-                  "rating": 5
-                }
-              ]
-            },
-            "blogs": {
-              "subtitle": "New & Blogs",
-              "title_line1": "Our",
-              "title_highlight": "News & Blogs",
-              "description": "Stay updated with the latest insights, tips, and trends in business, technology, and digital growth from our expert team.",
-              "read_more": "Read More",
-              "button": {
-                "text": "All News & Blogs",
-                "href": "/blog"
-              },
-              "items": [
-                {
-                  "title": "Complete Guide Business Insurance Perfect",
-                  "date": "12 Mar, 2025",
-                  "excerpt": "Learn how business insurance protects your company, reduces risk, and ensures long-term growth.",
-                  "image": "/blog/1.webp",
-                  "href": "/blog/business-finances-for-start"
-                },
-                {
-                  "title": "How Scale Your Business Without Losing Quality",
-                  "date": "18 Mar, 2025",
-                  "excerpt": "Discover proven strategies to scale your business efficiently while maintaining quality, productivity, and customer satisfaction.",
-                  "image": "/blog/2.webp",
-                  "href": "/blog/scale-without-losing-quality"
-                },
-                {
-                  "title": "The Entrepreneur Guide To Work-Life Balance",
-                  "date": "22 Mar, 2025",
-                  "excerpt": "Explore practical tips and expert advice to achieve a healthy work-life balance as an entrepreneur.",
-                  "image": "/blog/3.webp",
-                  "href": "/blog/guide-to-steady-cashflow"
-                },
-                {
-                  "title": "A Simple Way To Read Your Monthly Numbers",
-                  "date": "28 Mar, 2025",
-                  "excerpt": "Three lines on one page are enough to see whether the month is healthy before the meeting starts.",
-                  "image": "/blog/4.webp",
-                  "href": "/blog/read-your-monthly-numbers"
-                },
-                {
-                  "title": "What To Ask Before You Hire The Next Person",
-                  "date": "02 Apr, 2025",
-                  "excerpt": "A new seat should name the work it will take, not only the title you want on the offer letter.",
-                  "image": "/blog/5.webp",
-                  "href": "/blog/before-you-hire"
-                },
-                {
-                  "title": "How A Quiet Quarter Still Moves The Plan",
-                  "date": "09 Apr, 2025",
-                  "excerpt": "Slow months are useful when the team uses them to finish the work that busy months keep postponing.",
-                  "image": "/blog/1.webp",
-                  "href": "/blog/quiet-quarter-plan"
-                },
-                {
-                  "title": "Pricing That Clients Can Explain Back",
-                  "date": "16 Apr, 2025",
-                  "excerpt": "A price holds when the buyer can say what it covers without opening the proposal again.",
-                  "image": "/blog/2.webp",
-                  "href": "/blog/pricing-clients-explain"
-                },
-                {
-                  "title": "The Weekly Review That Replaces Status Meetings",
-                  "date": "23 Apr, 2025",
-                  "excerpt": "One short written review keeps owners aligned without another hour on the calendar.",
-                  "image": "/blog/3.webp",
-                  "href": "/blog/weekly-review"
-                }
-              ]
-            },
-            "blog_details": {
-              "author_label": "By Admin",
-              "latest_title": "Latest Posts",
-              "categories_title": "Categories",
-              "categories": [
-                {
-                  "name": "Customer Engagement",
-                  "href": "/blog"
-                },
-                {
-                  "name": "Entrepreneurship",
-                  "href": "/blog"
-                },
-                {
-                  "name": "Finance",
-                  "href": "/blog"
-                },
-                {
-                  "name": "Investment",
-                  "href": "/blog"
-                },
-                {
-                  "name": "Management",
-                  "href": "/blog"
-                }
-              ],
-              "items": [
-                {
-                  "slug": "business-finances-for-start",
-                  "title": "Complete Guide Business Insurance Perfect",
-                  "image": "/blog/1.webp",
-                  "day": "12",
-                  "month": "MAR 2025",
-                  "author": "Admin",
-                  "category": "Finance",
-                  "intro": "Business insurance is only useful when you can name the risk it covers and the cost of leaving that risk open. This note walks through the cover a growing company actually uses. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting.",
-                  "sections": [
-                    {
-                      "heading": "What The Policy Is For",
-                      "text": "Start with the work that would stop if one event landed. A lost laptop is not the same risk as a client claim or a month without the founder. Write those three down before you compare premiums. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation."
-                    },
-                    {
-                      "heading": "What To Leave Out",
-                      "text": "Cover that duplicates something you already pay for is not protection. Drop the add-ons nobody on the team can explain in one sentence. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation. The review happens on a set day, and the same note is opened again instead of starting from memory. If the line is still true next month, it stays. If the work changed, the line is rewritten before anyone acts on it."
-                    },
-                    {
-                      "heading": "How To Review It",
-                      "text": "Once a year, match the policy to the current team size and the contracts you sign. If the work changed and the policy did not, the cover is already out of date. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation. The review happens on a set day, and the same note is opened again instead of starting from memory. If the line is still true next month, it stays. If the work changed, the line is rewritten before anyone acts on it."
-                    }
-                  ]
-                },
-                {
-                  "slug": "scale-without-losing-quality",
-                  "title": "How Scale Your Business Without Losing Quality",
-                  "image": "/blog/2.webp",
-                  "day": "18",
-                  "month": "MAR 2025",
-                  "author": "Admin",
-                  "category": "Entrepreneurship",
-                  "intro": "Growth that keeps quality has a limit on how much new work the current team can finish well. This is how we set that limit before the calendar fills up. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation.",
-                  "sections": [
-                    {
-                      "heading": "Name The Work That Cannot Slip",
-                      "text": "List the deliveries a client would notice if they were late or thin. Those stay with the people who already do them well. New volume does not land on that list first. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation. The review happens on a set day, and the same note is opened again instead of starting from memory."
-                    },
-                    {
-                      "heading": "Add Capacity Before The Promise",
-                      "text": "A new client is a promise. Hire or free a person before the promise is made, not after the first week is already behind. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation. The review happens on a set day, and the same note is opened again instead of starting from memory. If the line is still true next month, it stays. If the work changed, the line is rewritten before anyone acts on it."
-                    },
-                    {
-                      "heading": "Check Quality In The Same Meeting",
-                      "text": "The weekly review should show both the new work and the marks on the old work. If quality is not on the page, it will be the thing you notice last. We keep the wording plain enough that a new person can follow it without a second explanation. The review happens on a set day, and the same note is opened again instead of starting from memory. If the line is still true next month, it stays. If the work changed, the line is rewritten before anyone acts on it. Clients see the result of the decision, not the debate that produced it."
-                    }
-                  ]
-                },
-                {
-                  "slug": "guide-to-steady-cashflow",
-                  "title": "The Entrepreneur Guide To Work-Life Balance",
-                  "image": "/blog/3.webp",
-                  "day": "22",
-                  "month": "MAR 2025",
-                  "author": "Admin",
-                  "category": "Management",
-                  "intro": "A steady week is a choice about when work starts and when it stops. Founders lose that choice when every hour is already spoken for. Clients see the result of the decision, not the debate that produced it. The team checks one example of the work before they agree the change is real. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call.",
-                  "sections": [
-                    {
-                      "heading": "Protect Two Blocks",
-                      "text": "Keep one block for deep work and one for the people at home. Put them on the calendar before client calls are allowed to take the day. The team checks one example of the work before they agree the change is real. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call."
-                    },
-                    {
-                      "heading": "Shorten The Open List",
-                      "text": "An endless task list makes every evening feel unfinished. Close the day with three items, not thirty. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting."
-                    },
-                    {
-                      "heading": "Let The Team See The Boundary",
-                      "text": "If only you know the hours you are keeping, the team will still book you. Say the boundary out loud and keep it for a month before you judge it. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting."
-                    }
-                  ]
-                },
-                {
-                  "slug": "read-your-monthly-numbers",
-                  "title": "A Simple Way To Read Your Monthly Numbers",
-                  "image": "/blog/4.webp",
-                  "day": "28",
-                  "month": "MAR 2025",
-                  "author": "Admin",
-                  "category": "Finance",
-                  "intro": "Three lines are enough to read a month: what came in, what went out, and what is still owed. The rest of the report can wait. The team checks one example of the work before they agree the change is real. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan.",
-                  "sections": [
-                    {
-                      "heading": "Cash In",
-                      "text": "Write the money that actually arrived, not the invoices you sent. A busy month can still be a thin month if clients have not paid. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan."
-                    },
-                    {
-                      "heading": "Cash Out",
-                      "text": "Group spend by the job it supports. If a line has no job, it is the first place to ask a question. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation."
-                    },
-                    {
-                      "heading": "What Is Still Open",
-                      "text": "Unpaid invoices and unpaid bills belong on the same page. The gap between them is the number that decides next month’s pace. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation. The review happens on a set day, and the same note is opened again instead of starting from memory."
-                    }
-                  ]
-                },
-                {
-                  "slug": "before-you-hire",
-                  "title": "What To Ask Before You Hire The Next Person",
-                  "image": "/blog/5.webp",
-                  "day": "02",
-                  "month": "APR 2025",
-                  "author": "Admin",
-                  "category": "Management",
-                  "intro": "A new hire should take a named piece of work off the current team. If you cannot name that work, the seat is still an idea. The team checks one example of the work before they agree the change is real. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan.",
-                  "sections": [
-                    {
-                      "heading": "Write The Week",
-                      "text": "Describe the first month in weeks, not in a job title. What will this person finish that is not finished today? A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan."
-                    },
-                    {
-                      "heading": "Check The Cost",
-                      "text": "Salary is only part of the cost. Add the time a current person will spend teaching, and the tools the new person needs. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation."
-                    },
-                    {
-                      "heading": "Decide Who Says No",
-                      "text": "One person should be able to stop the hire if the work is not real yet. A committee that only says yes will fill the office before the work is there. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation."
-                    }
-                  ]
-                },
-                {
-                  "slug": "quiet-quarter-plan",
-                  "title": "How A Quiet Quarter Still Moves The Plan",
-                  "image": "/blog/1.webp",
-                  "day": "09",
-                  "month": "APR 2025",
-                  "author": "Admin",
-                  "category": "Investment",
-                  "intro": "A quiet quarter is not an empty one. It is the time to finish the work that a full pipeline keeps pushing aside. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation. The review happens on a set day, and the same note is opened again instead of starting from memory.",
-                  "sections": [
-                    {
-                      "heading": "Finish The Half-Done",
-                      "text": "List the projects that are open and not moving. Close or complete three of them before you start anything new. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation. The review happens on a set day, and the same note is opened again instead of starting from memory. If the line is still true next month, it stays. If the work changed, the line is rewritten before anyone acts on it."
-                    },
-                    {
-                      "heading": "Repair The Path",
-                      "text": "Use the slower weeks to fix the handoff that always breaks when you are busy. A quiet month is the only time that repair gets done. The page names an owner and a date so the point is not lost after the meeting. We keep the wording plain enough that a new person can follow it without a second explanation. The review happens on a set day, and the same note is opened again instead of starting from memory. If the line is still true next month, it stays. If the work changed, the line is rewritten before anyone acts on it."
-                    },
-                    {
-                      "heading": "Keep A Small Pipeline",
-                      "text": "Do not let the quarter go to zero. A few live conversations mean the next busy month does not start from a blank page. We keep the wording plain enough that a new person can follow it without a second explanation. The review happens on a set day, and the same note is opened again instead of starting from memory. If the line is still true next month, it stays. If the work changed, the line is rewritten before anyone acts on it. Clients see the result of the decision, not the debate that produced it. The team checks one example of the work before they agree the change is real."
-                    }
-                  ]
-                },
-                {
-                  "slug": "pricing-clients-explain",
-                  "title": "Pricing That Clients Can Explain Back",
-                  "image": "/blog/2.webp",
-                  "day": "16",
-                  "month": "APR 2025",
-                  "author": "Admin",
-                  "category": "Customer Engagement",
-                  "intro": "A price holds when the buyer can repeat what it includes. If they need you in the room to explain it, the offer is still unclear. If the line is still true next month, it stays. If the work changed, the line is rewritten before anyone acts on it. Clients see the result of the decision, not the debate that produced it. The team checks one example of the work before they agree the change is real. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong.",
-                  "sections": [
-                    {
-                      "heading": "Say What Is Included",
-                      "text": "Write the work, the time, and the result in plain lines. Leave out the adjectives. The buyer is checking the list, not the tone. Clients see the result of the decision, not the debate that produced it. The team checks one example of the work before they agree the change is real. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call."
-                    },
-                    {
-                      "heading": "Say What Is Not",
-                      "text": "The boundary matters as much as the offer. Name the work that will be a separate conversation so it does not arrive later as a surprise. The team checks one example of the work before they agree the change is real. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan."
-                    },
-                    {
-                      "heading": "Test It Out Loud",
-                      "text": "Ask someone outside the project to explain the price back. If they cannot, rewrite the page before the next call. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan."
-                    }
-                  ]
-                },
-                {
-                  "slug": "weekly-review",
-                  "title": "The Weekly Review That Replaces Status Meetings",
-                  "image": "/blog/3.webp",
-                  "day": "23",
-                  "month": "APR 2025",
-                  "author": "Admin",
-                  "category": "Entrepreneurship",
-                  "intro": "A written review of one page can replace the status meeting. The meeting stays only for the items that need a decision. If the line is still true next month, it stays. If the work changed, the line is rewritten before anyone acts on it. Clients see the result of the decision, not the debate that produced it. The team checks one example of the work before they agree the change is real. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it.",
-                  "sections": [
-                    {
-                      "heading": "Three Lines",
-                      "text": "Each owner writes what finished, what is stuck, and what they need. Nothing else goes on the page. Clients see the result of the decision, not the debate that produced it. The team checks one example of the work before they agree the change is real. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call."
-                    },
-                    {
-                      "heading": "Read Before You Talk",
-                      "text": "The page goes out the day before. The meeting, if you still hold one, starts from the stuck line only. The team checks one example of the work before they agree the change is real. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan."
-                    },
-                    {
-                      "heading": "Keep The Record",
-                      "text": "Save the pages. After a month you can see which stuck item never moved, and that is the real agenda. A cost, a name, and a next step sit on the same page so the choice can be reversed if it was wrong. Nothing is added to the list until the current item has an owner who accepts it. The record is what the company opens at the next review, not a slide that disappears after the call. This keeps the work specific to the client in front of the team and stops the advice from turning into a slogan."
-                    }
-                  ]
+                  "rating": 5,
+                  "text": "StratEdge handles our estate governance, private equity advisory, and multi-generational tax structures with absolute precision, confidentiality, and integrity."
                 }
               ]
             },
             "portfolio": {
-              "subtitle": "Portfolio",
-              "title_line1": "Our Recent",
-              "title_highlight": "Projects",
-              "description": "We take pride in delivering innovative solutions that help businesses grow. Explore some of our recent work and success stories.",
+              "subtitle": "Our Portfolio",
+              "title_line1": "Proven Financial",
+              "title_highlight": "Impact & Growth",
+              "description": "Explore how StratEdge has helped enterprise clients, fast-growing startups, and private wealth clients navigate complex financial landscapes.",
               "items": [
                 {
-                  "slug": "cut-costs",
-                  "title": "Business Strategy to Cut Costs by 30%",
-                  "category": "Business Consultation",
-                  "image": "/img/boys.webp"
+                  "slug": "tax-restructuring",
+                  "title": "Corporate Tax Restructuring & 32% Savings",
+                  "category": "Tax Optimization",
+                  "image": "/portfolio/1.webp"
                 },
                 {
-                  "slug": "legacy-systems",
-                  "title": "Transforming Legacy Systems",
-                  "category": "Digital Agency",
-                  "image": "/services/1.webp"
-                },
-                {
-                  "slug": "brand-strategy",
-                  "title": "Revolutionizing Brand Strategy",
-                  "category": "Cyber Security",
-                  "image": "/services/2.webp"
-                },
-                {
-                  "slug": "digital-products",
-                  "title": "Building Scalable Digital Products",
-                  "category": "Product Development",
-                  "image": "/services/3.webp"
-                },
-                {
-                  "slug": "creative-campaigns",
-                  "title": "Creative Campaigns That Drive Results",
-                  "category": "Marketing & Branding",
-                  "image": "/img/girl.webp"
-                },
-                {
-                  "slug": "it-infrastructure",
-                  "title": "Modern IT Infrastructure for Growing Teams",
-                  "category": "IT Solutions",
-                  "image": "/img/faq.webp"
-                },
-                {
-                  "slug": "operating-plan",
-                  "title": "A One-Year Operating Plan",
-                  "category": "Business Planning",
-                  "image": "/team/1.webp"
-                },
-                {
-                  "slug": "sales-pipeline",
-                  "title": "Sales Pipeline That Closes Faster",
-                  "category": "Sales Consulting",
-                  "image": "/team/3.webp"
-                },
-                {
-                  "slug": "cash-review",
-                  "title": "Cash Review Before the Next Hire",
+                  "slug": "financial-systems",
+                  "title": "Enterprise Financial & ERP Modernization",
                   "category": "Financial Advisory",
-                  "image": "/team/4.webp"
+                  "image": "/portfolio/2.webp"
                 },
                 {
-                  "slug": "brand-system",
-                  "title": "Brand System for a Growing Firm",
-                  "category": "Marketing & Branding",
-                  "image": "/team/5.webp"
-                },
-                {
-                  "slug": "retirement-plan",
-                  "title": "Retirement Plan With a Real Date",
-                  "category": "Retirement Planning",
-                  "image": "/team/6.webp"
-                },
-                {
-                  "slug": "investment-mix",
-                  "title": "Investment Mix the Owners Can Keep",
+                  "slug": "wealth-strategy",
+                  "title": "Family Office Multi-Asset Allocation Strategy",
                   "category": "Wealth Management",
-                  "image": "/img/testimonails.webp"
-                }
-              ]
-            },
-            "portfolio_details": {
-              "about_label": "About The Project",
-              "info_title": "Project Information",
-              "client_label": "Client",
-              "type_label": "Project Type",
-              "date_label": "Date",
-              "items": [
-                {
-                  "slug": "cut-costs",
-                  "title": "Business Strategy to Cut Costs by 30%",
-                  "image": "/img/boys.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "Cost Strategy",
-                  "paragraphs": [
-                    "Northline came to us because costs had crept up while the work itself had not changed. Invoices were higher, the team was busier, and nobody could point to the line that had grown. We started with twelve months of spend, grouped by the job it was meant to support, and sat with the people who approved it. The first week was only listening. We did not arrive with a target percentage. The thirty percent figure came later, after we could see which costs still earned their place and which ones were leftovers from an older way of working.",
-                    "The map showed three kinds of spend. Some of it paid for client work and had to stay. Some of it paid for tools the team had stopped opening. Some of it paid for steps that existed only because two departments did not trust each other’s numbers. We marked each item with an owner and a reason. If nobody could name the reason in one sentence, the item went on a review list. That list was shorter than the owners expected, and that was the point. A long list of cuts is a wish. A short list with names on it is a plan.",
-                    "We did not touch the work clients could see. Proposals, delivery, and the weekly client call stayed as they were. The cuts sat behind that work: duplicate software, a report nobody read, a vendor whose contract had renewed by habit, and two approval steps that added days without adding a check. Each cut had a date, a person, and a note about what would break if we were wrong. The team met every Friday for twenty minutes and only talked about those notes. If a cut caused a real problem, we put the cost back. Two items came back. The rest stayed gone.",
-                    "By the second quarter the monthly spend was lower and the delivery calendar had not slipped. The owners could see the saving on one page, next to the work that had not been cut. We left them with the Friday review, the owner list, and a rule: a new cost needs a name and a job before it is approved. That rule is what keeps the saving from leaking back in over the next year."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "Every change had an owner, a date, and a way to undo it. We refused cuts that would show up in the work a client could see.",
-                  "facts_aside": "The review was weekly and short. We only discussed the items on the list, and we put a cost back the moment it caused a real problem for delivery.",
-                  "facts": [
-                    "Weekly cost review",
-                    "Owner for each saving",
-                    "No cut to client work",
-                    "Quarterly check"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "Output stayed level while monthly spend fell. The saving was visible in the next two quarters, and the Friday review is still how the company decides whether a new cost earns its place.",
-                  "gallery": [
-                    "/services/1.webp",
-                    "/services/2.webp"
-                  ],
-                  "client": "Northline Studio",
-                  "project_type": "Business Consultation",
-                  "date": "12 March 2025"
+                  "image": "/portfolio/3.webp"
                 },
                 {
-                  "slug": "legacy-systems",
-                  "title": "Transforming Legacy Systems",
-                  "image": "/services/1.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "Systems Work",
-                  "paragraphs": [
-                    "Harbor Digital was running client work across tools that no longer talked to each other. A job started in one place, moved by email, and ended in a folder only one person could find. The team was not short of effort. They were short of a path. We spent the first days watching a real job travel from the brief to the invoice. We wrote down every handoff, every place someone retyped a number, and every question that came back because the last person had not left a note.",
-                    "We did not replace the whole stack. Most of the pain lived in three handoffs: brief to production, production to review, and review to invoice. Those three became the project. Everything else stayed where it was until those three were calm. The new path used tools the team already paid for. We only added a status the whole floor could see, so a job was never “with someone” without a name.",
-                    "Training happened on the floor, on live jobs, not in a slide deck. Each person ran one job the new way while we sat nearby. Old files were kept. Nothing was deleted in the first month. We also wrote a rollback: if a job stalled, it could return to the old path for that week. That promise is why the team tried the new path instead of working around it. Two jobs did roll back. Both were fixed the same week and then ran the new way.",
-                    "A month later the same job type took fewer messages and fewer “where is this” questions. People could see the status without asking. The invoice stopped waiting on a hunt for the final file. We left a one-page map of the three handoffs and the name of the person who owns each status. New hires read that page on day one.",
-                    "This part of the Transforming Legacy Systems work stayed specific to Harbor Digital. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 1 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "We changed one workflow at a time and kept the old files. The team never had to stop client work to try the new path.",
-                  "facts_aside": "Training was done on live jobs. A written rollback meant people could try the new steps without fearing that a single mistake would strand a client.",
-                  "facts": [
-                    "One workflow at a time",
-                    "Training on the floor",
-                    "Old data kept",
-                    "A rollback plan"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "Jobs of the same type now move with fewer handoff messages, and the invoice no longer waits on a search for the final file.",
-                  "gallery": [
-                    "/img/faq.webp",
-                    "/services/3.webp"
-                  ],
-                  "client": "Harbor Digital",
-                  "project_type": "Digital Agency",
-                  "date": "04 April 2025"
+                  "slug": "turnaround-strategy",
+                  "title": "Operational Restructuring & Margin Expansion",
+                  "category": "Corporate Turnaround",
+                  "image": "/portfolio/4.webp"
                 },
                 {
-                  "slug": "brand-strategy",
-                  "title": "Revolutionizing Brand Strategy",
-                  "image": "/services/2.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "Brand Work",
-                  "paragraphs": [
-                    "Brightline’s site, deck, and first sales call told three different stories. The site talked about security in general. The deck talked about a product feature. The call talked about a fear the buyer already had. None of them were false. Together they made the buyer do the work of connecting them. We sat in on three first calls and read the last ten proposals. The gap was not a missing logo. It was a missing line: what Brightline does, for whom, and why that buyer should care this quarter.",
-                    "We wrote that line with the people who sell, not only with the people who design. If a salesperson would not say it out loud, it did not go on the page. The line became the first sentence of the site, the title of the deck, and the opening of the call. Visual work followed the line. We did not restyle everything. We restyled the three places a buyer actually sees before a second meeting: the homepage header, the proposal cover, and the first five slides.",
-                    "The sales team used the new deck for two weeks and marked the sentences buyers repeated back. Those sentences stayed. The ones that earned a blank look were cut. That is a small test and it is the only test that mattered. A brand line that the buyer does not repeat is a line the company is saying to itself.",
-                    "After launch, first meetings started further along. Buyers arrived already using Brightline’s words for the problem. The team stopped rebuilding the story for every call. The site, the deck, and the call finally described the same company. The next hire in sales was handed those three pieces on the first day and did not need a separate explanation of what the company is. That is the practical test of a brand line: a new person can say it, and a buyer can repeat it, without a meeting to translate either of them."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "The story was written with the people who say it on calls. If they would not speak a line, it did not ship.",
-                  "facts_aside": "We only changed the three surfaces a buyer sees before a second meeting, then kept the sentences buyers repeated and cut the rest.",
-                  "facts": [
-                    "One offer line",
-                    "Shared sales deck",
-                    "Site and deck match",
-                    "Review after launch"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "First meetings now start further along because the site, the deck, and the call tell one story. The team no longer rebuilds that story for every new buyer.",
-                  "gallery": [
-                    "/img/girl.webp",
-                    "/team/5.webp"
-                  ],
-                  "client": "Brightline Security",
-                  "project_type": "Brand Strategy",
-                  "date": "18 May 2025"
-                },
-                {
-                  "slug": "digital-products",
-                  "title": "Building Scalable Digital Products",
-                  "image": "/services/3.webp",
-                  "title_line1": "Deeper Dive Into Our Digital Product Design",
-                  "title_highlight": "Masterpieces",
-                  "paragraphs": [
-                    "This product started as a pile of feature requests and a date that was already too close. The client knew the market and did not yet know which problem the first version had to solve. We spent the opening week with the people who would use it, not with the backlog. We watched them work around the old tool, wrote down the three tasks they repeated every day, and treated everything else as later. A product that tries to do the whole job on day one usually does none of it well. The first release had one job: make those three tasks faster and harder to get wrong.",
-                    "Design and build ran in short loops. Each loop ended with a demo the users could click, not a slide they could nod at. When a screen confused them, we changed the screen before we added the next feature. Sprint planning stayed small on purpose. We would rather ship a thin version that people finish than a wide version they abandon halfway. Standups were about blockers, and the demo at the end of the week was about whether the three tasks had actually improved.",
-                    "We also wrote down the problems we chose not to solve yet. That list kept the team honest when a new request arrived. If it did not help the three tasks, it went on the list with a reason, and the client could see it. Nothing disappeared into a meeting. The same list became the start of the next release, so the first version was a beginning and not a compromise nobody would admit.",
-                    "At launch the users completed the core tasks with fewer steps and fewer corrections. Support questions dropped on those tasks and rose, briefly, on the edges we had left for later. That was the right shape of problem. The client had a product people could use, a list of what comes next, and a rhythm for building it without starting over."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "The first version had one job: the three tasks people repeated every day. Everything else waited on a list the client could see.",
-                  "facts_aside": "We followed a strategic and user-centric approach to transform ideas into a high-performing digital product. Our team focused on understanding user needs, creating intuitive designs, and leveraging the latest technologies to deliver a seamless and engaging experience.",
-                  "facts": [
-                    "Efficient Sprint Planning",
-                    "Standups and Demos",
-                    "Iterative Delivery Approach",
-                    "Problem Solving"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "Users finish the core tasks in fewer steps. The client left with a working product, a visible list of later work, and a weekly demo rhythm they still use.",
-                  "gallery": [
-                    "/img/boys.webp",
-                    "/img/faq.webp"
-                  ],
-                  "client": "Design Studio in USA",
-                  "project_type": "Digital Product Design",
-                  "date": "25 October 2023"
-                },
-                {
-                  "slug": "creative-campaigns",
-                  "title": "Creative Campaigns That Drive Results",
-                  "image": "/img/girl.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "Campaigns",
-                  "paragraphs": [
-                    "Oak & Pine had been present in too many places and remembered in none of them. The brief asked for more campaigns. We asked where buyers already spent time, and we cut the list to three. A campaign that the team cannot run every week is a campaign that will be abandoned in a month. Three channels, one message, and a weekly look at whether conversations started: that was the whole plan.",
-                    "The message was the same line the sales team already used when a meeting went well. We did not invent a new voice. We took the sentence buyers leaned forward for and put it where those buyers already were. Creative work served that sentence. If a visual was clever and the sentence was hard to find, the visual lost.",
-                    "Each week we counted first conversations, not likes. A channel that produced no conversation for three weeks was stopped. Stopping was part of the work, not a failure of it. The budget from a stopped channel moved to the one that was working. The team wrote the reason in a shared note so the next quarter would not restart a channel out of habit.",
-                    "Two of the three channels stayed. The third was dropped without a long debate because the rule had been agreed at the start. First meetings rose from the channels that stayed, and the team could explain why in one sentence. That sentence is now how they choose the next campaign.",
-                    "This part of the Creative Campaigns That Drive Results work stayed specific to Oak & Pine. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 1 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens.",
-                    "This part of the Creative Campaigns That Drive Results work stayed specific to Oak & Pine. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 2 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "We kept the list short enough to run. Three channels, one message, and a weekly count of real conversations.",
-                  "facts_aside": "A channel that brought no conversation for three weeks was stopped, and its budget moved. Stopping was a planned part of the work.",
-                  "facts": [
-                    "Three channels only",
-                    "One message",
-                    "Weekly numbers",
-                    "Stop what did not work"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "Two channels stayed and one was dropped on the rule we set at the start. First meetings rose from the work that remained, and the team can say why.",
-                  "gallery": [
-                    "/services/2.webp",
-                    "/img/girl.webp"
-                  ],
-                  "client": "Oak & Pine",
-                  "project_type": "Marketing & Branding",
-                  "date": "02 June 2025"
-                },
-                {
-                  "slug": "it-infrastructure",
-                  "title": "Modern IT Infrastructure for Growing Teams",
-                  "image": "/img/faq.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "IT Setup",
-                  "paragraphs": [
-                    "Fieldnote had grown past a shared drive and a handful of passwords in a chat thread. New people waited days for access. Files lived in three places. Backups were something someone meant to check. The team did not need a larger platform. They needed rules a new hire could follow on the first morning and a person who owned them.",
-                    "We listed what people actually open in a week. The daily tools stayed. The extras were archived, not deleted, so nothing felt lost on day one. Access was rewritten as roles instead of personal favors. A designer, a project lead, and a finance owner each had a list. If you joined as one of those, you received that list. Nobody had to remember who to ask.",
-                    "Backups ran every night and were tested once, on purpose, by restoring a single folder. A backup that has never been restored is a hope. We also named one support owner. Questions stopped bouncing. The starter guide is one page: where files live, how access works, and who to write when something breaks. New hires read it before their first stand-up.",
-                    "The following month a new teammate was working on a live job before lunch on day one. The old wait is what the owners noticed. The files are in one place, the night backup has been proven once, and the guide is the thing we told them not to decorate. If it grows past a page, it will stop being read.",
-                    "This part of the Modern IT Infrastructure for Growing Teams work stayed specific to Fieldnote Labs. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 1 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "Access is a role, not a favor. A new hire gets a list, a one-page guide, and a named person to write.",
-                  "facts_aside": "We archived unused tools instead of deleting them, tested one restore, and kept the starter guide to a single page so people would actually read it.",
-                  "facts": [
-                    "Shared access rules",
-                    "Nightly backup",
-                    "One support owner",
-                    "A starter guide"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "A new teammate now reaches a live job on the first morning. Files have one home, the backup has been restored once, and support has a name.",
-                  "gallery": [
-                    "/team/6.webp",
-                    "/services/1.webp"
-                  ],
-                  "client": "Fieldnote Labs",
-                  "project_type": "IT Solutions",
-                  "date": "21 July 2025"
-                },
-                {
-                  "slug": "operating-plan",
-                  "title": "A One-Year Operating Plan",
-                  "image": "/team/1.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "Operating Plan",
-                  "paragraphs": [
-                    "Lumen’s year was a list of hopes in a slide that changed every month. Hiring, revenue, and a new offer were all “this year,” which meant none of them had a month. We sat with the owners and forced an order. What must happen before the next thing can happen. The year became four milestones. Each milestone had a month, a number, and one owner. If it did not have those three, it was not in the plan.",
-                    "The budget was written against those milestones, not against last year’s categories. Cash had its own line so a good sales month could not hide a hiring decision the company could not afford. The hiring order was the most argued page. We kept it short: the role that unblocks the first milestone, then the role that unblocks the second. Later roles stayed on a parking list.",
-                    "Owners now open the same page in the monthly meeting. They do not rebuild the story. They say whether the milestone moved, what blocked it, and whether the cash line still allows the next hire. The first two milestones were met. The third slipped by a month and the plan was updated in the meeting, not quietly afterward. A plan that cannot be changed in public will be ignored in private.",
-                    "We left the one-page plan, the cash line, and the rule about order. New ideas are welcome. They join the parking list until an owner can say which milestone they serve. That is how the year stays a sequence instead of a pile.",
-                    "This part of the A One-Year Operating Plan work stayed specific to Lumen Works. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 1 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "The year is four milestones. Each one has a month, a number, and a single owner, or it is not in the plan.",
-                  "facts_aside": "Cash sits on its own line so a strong sales month cannot hide a hire the company cannot carry. New ideas wait on a parking list.",
-                  "facts": [
-                    "Four milestones",
-                    "A hiring order",
-                    "Monthly review",
-                    "A cash line"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "The first two milestones were met and the third was moved in public by a month. The monthly meeting now uses one page instead of a new story.",
-                  "gallery": [
-                    "/team/1.webp",
-                    "/img/boys.webp"
-                  ],
-                  "client": "Lumen Works",
-                  "project_type": "Business Planning",
-                  "date": "09 January 2025"
-                },
-                {
-                  "slug": "sales-pipeline",
-                  "title": "Sales Pipeline That Closes Faster",
-                  "image": "/team/3.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "Sales Pipeline",
-                  "paragraphs": [
-                    "Summit’s deals were not dying. They were sitting. A lead would have a good first call and then wait, because nobody had agreed what “good” meant or who wrote the next note. We listened to calls and read the notes. The team was skilled. The path was not. Five stages replaced a single column called “in progress.” Each stage has one action that moves a deal forward and one sign that it does not belong there anymore.",
-                    "Follow-up is a rule, not a mood. If a deal sits for a set number of days, it is either moved back or closed out. The weekly review lasts half an hour and only looks at movement. Deals that moved are named. Deals that did not move are named. There is no tour of the whole list. One owner per deal ended the habit of “the team” being responsible, which had meant nobody was.",
-                    "Talk tracks were taken from calls that already worked. We did not hand the team a script from outside their language. We wrote the questions they were already asking when a buyer stayed on the line, and we put those questions at the stage where they belong. The first month felt slower because people had to log the stage. The second month was faster because the next step was no longer a debate.",
-                    "Fewer deals sit still. The ones that do are visible on Friday, which is the point of the review. Summit can see the next action on every live deal, and they can see which stage is where work actually stalls. That stage is now the only place they practice.",
-                    "This part of the Sales Pipeline That Closes Faster work stayed specific to Summit Retail. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 1 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "Five stages replaced one vague column. Each stage has a next action and a reason to leave it.",
-                  "facts_aside": "The Friday review only talks about movement. A deal with no owner is not a deal, and a follow-up that depends on mood does not count.",
-                  "facts": [
-                    "Five stages",
-                    "A follow-up rule",
-                    "Weekly review",
-                    "One owner per deal"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "Fewer deals sit without a next step. The team can see, every Friday, which stage is where work stalls, and that is where they practice.",
-                  "gallery": [
-                    "/team/3.webp",
-                    "/services/3.webp"
-                  ],
-                  "client": "Summit Retail",
-                  "project_type": "Sales Consulting",
-                  "date": "16 February 2025"
-                },
-                {
-                  "slug": "cash-review",
-                  "title": "Cash Review Before the Next Hire",
-                  "image": "/team/4.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "Cash Review",
-                  "paragraphs": [
-                    "Harbor wanted to hire two people before the busy season. The instinct was reasonable and the cash story was not yet written. We read the last year of cash, margin, and the months that had been quieter than the plan. The question was not whether the roles were useful. It was whether a slow month could carry both salaries without touching the reserve the owners had promised themselves they would not touch.",
-                    "We built a slow-month test. Take the weakest recent month, add both salaries, and see what is left. The page was one sheet. It showed cash on hand, the reserve, the cost of each role, and a stop number: the cash level at which hiring pauses. The owners had never written that number down. Once it was on paper, the argument changed from hope to a choice.",
-                    "They hired the role that unblocked delivery and waited on the second. The wait was not a loss. It was the plan. We also wrote what would have to be true, in cash, before the second role returned to the table. That sentence kept the idea alive without letting it sneak in during a good week.",
-                    "The season arrived and the reserve was still there. The first hire was busy. The second role is scheduled against the stop number, not against a feeling. The brief from that meeting is the template they now use before any large commitment: what it costs, what a weak month does, and the number that means stop.",
-                    "This part of the Cash Review Before the Next Hire work stayed specific to Harbor & Co. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 1 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens.",
-                    "This part of the Cash Review Before the Next Hire work stayed specific to Harbor & Co. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 2 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "The decision used a weak month, not a hopeful one. A stop number was written down before anyone was hired.",
-                  "facts_aside": "One role was hired because it unblocked delivery. The second waits until cash, not enthusiasm, says it can be carried.",
-                  "facts": [
-                    "Cash on hand",
-                    "A slow-month test",
-                    "Hire cost",
-                    "A stop number"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "The reserve held through the season. The next hire is tied to a written stop number, and that one-page test is now how large costs get judged.",
-                  "gallery": [
-                    "/team/4.webp",
-                    "/img/faq.webp"
-                  ],
-                  "client": "Harbor & Co",
-                  "project_type": "Financial Advisory",
-                  "date": "28 August 2025"
-                },
-                {
-                  "slug": "brand-system",
-                  "title": "Brand System for a Growing Firm",
-                  "image": "/team/5.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "Brand System",
-                  "paragraphs": [
-                    "Meadow had a logo and a growing pile of documents that did not look related. Proposals used one type, the site used another, and the offer was described three ways depending on who wrote the page. Clients were not confused by the color. They were unsure what the firm actually did. We started with the offer line. Until that sentence was stable, visual work would only decorate the confusion.",
-                    "The line was tested in the next five proposals. If a client repeated it, it stayed. We then chose a type pair and a small set of colors and applied them only where a buyer looks: the proposal cover, the site header, and the signature of the email that sends the proposal. A full brand book was declined. A book nobody opens is not a system. A cover, a header, and a line that match are a system.",
-                    "Templates were dull on purpose. The proposal template has the line, the type, and a place for the work. People cannot “improve” it without breaking the match, which is the constraint we wanted. The team was shown how to use it in one sitting. Questions after that sitting were about the work, not about the font.",
-                    "New proposals and the site now look like the same firm. The offer line shows up in client emails unprompted, which is the only measure we trusted. Meadow can hand the template to a new colleague and the next document will still belong to the same company.",
-                    "This part of the Brand System for a Growing Firm work stayed specific to Meadow Partners. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 1 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "The system is a line, a type pair, and three surfaces. If it cannot be used in one sitting, it is too big.",
-                  "facts_aside": "We tested the offer line in live proposals and kept it only when clients repeated it. Visuals followed the line, not the other way around.",
-                  "facts": [
-                    "One offer line",
-                    "A type pair",
-                    "Proposal template",
-                    "Site header"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "Proposals and the site now describe one firm. New colleagues can use the template without inventing a new look, and clients repeat the offer line back.",
-                  "gallery": [
-                    "/team/5.webp",
-                    "/img/girl.webp"
-                  ],
-                  "client": "Meadow Partners",
-                  "project_type": "Marketing & Branding",
-                  "date": "11 September 2025"
-                },
-                {
-                  "slug": "retirement-plan",
-                  "title": "Retirement Plan With a Real Date",
-                  "image": "/team/6.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "Retirement Plan",
-                  "paragraphs": [
-                    "The client spoke about retirement as a feeling. Sometime. Enough. Comfortable. None of those words can be saved toward. We asked what a year of that life costs, in the city they intend to stay in, with the travel they already take and the help they expect to pay for. The number was specific and a little higher than the feeling. That was useful. A plan built on a softer number fails quietly.",
-                    "We listed what is already saved, what arrives each year, and the gap between that pace and the year they described. The gap was not a scolding. It was a yearly amount. We picked a date that the savings could actually reach if that amount was kept, and we wrote the date on the first page. A nearer date would have required a life they had not asked for. A later date was available if they wanted it. They chose the one that matched the amount they would really set aside.",
-                    "Accounts were left where they were unless a move had a clear reason. The work was the pace, not a new product. Each year has a review: did the amount go in, did the life they want still cost what we thought, does the date still hold. If income changes, the date moves in the open. We would rather move a date than pretend a missed year did not happen.",
-                    "The first year of saving is underway. The client can say the date and the number without looking them up. That is the result we wanted. Retirement stopped being a mood and became a page they can check.",
-                    "This part of the Retirement Plan With a Real Date work stayed specific to Private Client. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 1 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "The date comes from the life they described and the amount they will really save, not from a generic target.",
-                  "facts_aside": "We did not move accounts for the sake of moving them. The plan is a yearly pace, a written date, and a review when income or costs change.",
-                  "facts": [
-                    "A target date",
-                    "Yearly savings",
-                    "Current gap",
-                    "A yearly review"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "They have a date and a yearly number, and the first year of that saving has started. The page is something they can check without rebuilding the question.",
-                  "gallery": [
-                    "/team/6.webp",
-                    "/team/2.webp"
-                  ],
-                  "client": "Private Client",
-                  "project_type": "Retirement Planning",
-                  "date": "03 November 2025"
-                },
-                {
-                  "slug": "investment-mix",
-                  "title": "Investment Mix the Owners Can Keep",
-                  "image": "/img/testimonails.webp",
-                  "title_line1": "Deeper Dive Into Our",
-                  "title_highlight": "Investment Mix",
-                  "paragraphs": [
-                    "The family office had a mix that looked correct in a report and felt wrong in a down month. They had changed it twice in two years, each time after a headline. The cost was not the market. The cost was a mix they could not keep. We started with the timeline: what this money is for, and when it has to be there. A mix that ignores the date is a mix that will be abandoned the first time it disappoints.",
-                    "We wrote the risk they would still accept after a bad quarter, not the risk they liked in a meeting. Those are different numbers. The new mix is duller than the old one. More of it stays put. The part that can move is named, and the part that does not move is named, so a headline has a smaller door. We also wrote the review date. Between those dates the mix is not a topic, unless the timeline itself changes.",
-                    "The written page is one sheet. It says what stays, what can move, the loss they have already agreed to sit through, and the date of the next look. Owners signed it. Signing mattered. A mix nobody has agreed to in a calm week will be rewritten in a loud one. We walked through a past bad quarter and asked if they would have held. Where the answer was no, we reduced the position until the answer was yes.",
-                    "The next swing came and they held. That is the result. Not a higher number on a statement. A mix that survived the week they used to trade. The review is on the calendar. Until then, the page is the decision, and the headlines are not.",
-                    "This part of the Investment Mix the Owners Can Keep work stayed specific to Patel Family Office. We wrote decisions in plain language, named an owner, and reviewed them on a date instead of leaving them in a meeting. Pass 1 of that review checked whether the original goal still matched the work in front of the team, and we changed the page when it did not. The record of those changes is what the client still opens."
-                  ],
-                  "facts_title": "Interesting Facts In Development",
-                  "facts_intro": "The mix is built for a bad quarter they have already agreed to sit through, not for the meeting where everything feels fine.",
-                  "facts_aside": "What stays and what can move are both written down. Between review dates the mix is not reopened unless the timeline changes.",
-                  "facts": [
-                    "A written mix",
-                    "Risk they accept",
-                    "What stays",
-                    "A review date"
-                  ],
-                  "results_title": "The Results Of Our Project",
-                  "results_text": "They held the mix through the next swing. The decision lives on one signed page, and the next look is a date, not a headline.",
-                  "gallery": [
-                    "/img/testimonails.webp",
-                    "/team/1.webp"
-                  ],
-                  "client": "Patel Family Office",
-                  "project_type": "Wealth Management",
-                  "date": "19 December 2025"
+                  "slug": "succession-planning",
+                  "title": "Generational Wealth Succession & Trust Governance",
+                  "category": "Estate & Succession",
+                  "image": "/portfolio/5.webp"
                 }
               ]
             },
             "contact": {
               "subtitle": "Get In Touch",
-              "title_line1": "Let's Talk About",
-              "title_highlight": "Your Project",
-              "description": "Have a question, project idea, or just want to say hello? Fill out the form or reach us directly through the contact information. Our team will get back to you as soon as possible.",
-              "map_embed": "https://maps.google.com/maps?q=123%20Education%20Lane%2C%20New%20York%2C%20NY%2010001&z=15&output=embed",
-              "cards": [
-                {
-                  "icon": "MapPin",
-                  "title": "Our Location",
-                  "lines": ["123 Education Lane,", "New York, NY 10001"]
-                },
-                {
-                  "icon": "Phone",
-                  "title": "Phone Number",
-                  "lines": ["+100000000000", "+100000000000"],
-                  "href": "tel:+100000000000"
-                },
-                {
-                  "icon": "Mail",
-                  "title": "Email Address",
-                  "lines": ["info@xyz.com", "info@xyz.com"],
-                  "href": "mailto:info@xyz.com"
-                }
-              ],
+              "title_line1": "Start Your Strategic",
+              "title_highlight": "Consultation",
+              "description": "Have specific tax planning questions or need comprehensive corporate financial guidance? Contact StratEdge's senior advisory team today.",
+              "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.01104102344795!3d40.713129371393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a197c06b7cb%3A0x40a06c78f79e5de6!2sFinancial%20District%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus",
               "form": {
-                "subtitle": "Send Us A Message",
-                "title": "Fill Up",
-                "title_highlight": "The Form",
-                "description": "Your email address will not be published. Required fields are marked *",
-                "button_text": "Submit",
+                "subtitle": "Direct Message",
+                "title": "Connect With Our",
+                "title_highlight": "Strategists",
+                "description": "Fill out the form below and a StratEdge senior partner will reach out within 24 hours.",
+                "button_text": "Send Advisory Request",
                 "placeholders": {
-                  "name": "Your Name*",
-                  "email": "Email Address*",
+                  "name": "Full Name *",
+                  "email": "Corporate Email *",
                   "phone": "Phone Number",
-                  "subject": "Select Subject",
-                  "message": "Enter Your Message here*"
+                  "subject": "Select Advisory Area",
+                  "message": "Describe your strategic requirements..."
                 },
-                "subjects": ["Business Planning", "Financial Advisory", "Tax Planning", "Investment Advisory"]
-              }
-            },
-            "service_sidebar": {
-              "services_title": "More Services",
-              "contact_title": "Contact With us",
-              "address": "123 Education Lane, New York, NY 10001",
-              "phone": "+100000000000",
-              "email": "info@xyz.com",
-              "button": {
-                "text": "Get a Free Consultation",
-                "href": "/contact"
-              },
-              "project_title": "Have a Project in Mind?",
-              "project_text": "Let's discuss how we can turn your ideas into a successful product.",
-              "project_button": {
-                "text": "Contact Now",
-                "href": "/contact"
-              }
-            },
-            "service_details": [
-              {
-                "slug": "business-planning",
-                "title": "Business Planning",
-                "subtitle": "Service Detail",
-                "title_line1": "Business Planning",
-                "title_highlight": "Built Around Your Goals",
-                "intro": "We write a one-year plan around revenue, costs, hiring, and the milestones your team can actually follow.",
-                "image": "/services/1.webp",
-                "description_title": "Description",
-                "paragraphs": [
-                  "Business planning turns a loose set of ideas into a path the company can run. We look at how money comes in, where it goes, and which goals matter this year before anything is written down.",
-                  "The plan covers the offer, the team you need, the budget, and the milestones for each quarter. Owners get a document they can use in meetings, not a slide deck that sits unused.",
-                  "After launch we stay with the review rhythm. If revenue, hiring, or costs move, the plan is updated so it still matches the business you are running."
+                "subjects": [
+                  "Corporate Tax Strategy",
+                  "Financial & CFO Advisory",
+                  "Wealth & Family Office Strategy",
+                  "M&A & Restructuring",
+                  "Audit & Compliance Defense"
                 ],
-                "process_title": "Service Process",
-                "process": [
-                  {
-                    "number": "01",
-                    "title": "Goals & Numbers",
-                    "description": "We review revenue, costs, and the goals you want the next year to hit."
-                  },
-                  {
-                    "number": "02",
-                    "title": "Plan Draft",
-                    "description": "We shape milestones, budget, and hiring into a draft you can mark up."
-                  },
-                  {
-                    "number": "03",
-                    "title": "Operating Plan",
-                    "description": "We finish the plan and the monthly rhythm the team will keep."
-                  },
-                  {
-                    "number": "04",
-                    "title": "Quarterly Review",
-                    "description": "We sit with you each quarter and update the plan where the numbers moved."
-                  }
-                ]
-              },
-              {
-                "slug": "marketing-branding",
-                "title": "Marketing & Branding",
-                "subtitle": "Service Detail",
-                "title_line1": "Marketing & Branding",
-                "title_highlight": "A Clearer Story",
-                "intro": "We set the offer, the audience, and the message so marketing spend has one job to do.",
-                "image": "/services/2.webp",
-                "description_title": "Description",
-                "paragraphs": [
-                  "Marketing only works when the story matches how you actually sell. We start with the customers you want, the offer they buy, and the message you use today.",
-                  "From there we build positioning, a simple visual system, and a short list of campaigns for the next quarter. Your team gets assets they can reuse on the site, in sales, and in ads.",
-                  "We do not chase every channel. We pick the few places your buyers already are, launch those first, and review what brought real conversations."
-                ],
-                "process_title": "Service Process",
-                "process": [
-                  {
-                    "number": "01",
-                    "title": "Audience Review",
-                    "description": "We study buyers, competitors, and the message you use now."
-                  },
-                  {
-                    "number": "02",
-                    "title": "Positioning",
-                    "description": "We write the offer story and the visual direction in one draft."
-                  },
-                  {
-                    "number": "03",
-                    "title": "Brand System",
-                    "description": "We turn that direction into a small set of assets the team can use."
-                  },
-                  {
-                    "number": "04",
-                    "title": "Campaign Launch",
-                    "description": "We launch the priority campaigns and check which ones start conversations."
-                  }
-                ]
-              },
-              {
-                "slug": "sales-consulting",
-                "title": "Sales Consulting",
-                "subtitle": "Service Detail",
-                "title_line1": "Sales Consulting",
-                "title_highlight": "A Pipeline That Moves",
-                "intro": "We fix how a lead moves from the first call to a signed agreement, with stages the whole team shares.",
-                "image": "/services/3.webp",
-                "description_title": "Description",
-                "paragraphs": [
-                  "Most sales slow down because nobody agrees what happens next. We sit with the team, watch how leads arrive, and mark the points where deals stall.",
-                  "Then we set the stages, the follow-up, and a weekly review. Talk tracks cover the objections your buyers already raise, written in the language your team uses.",
-                  "The new rhythm is small enough to keep. After the first weeks we adjust the stages that did not match real conversations, so the pipeline stays honest."
-                ],
-                "process_title": "Service Process",
-                "process": [
-                  {
-                    "number": "01",
-                    "title": "Deal Review",
-                    "description": "We map how leads come in and where they stop moving."
-                  },
-                  {
-                    "number": "02",
-                    "title": "Stage Design",
-                    "description": "We name each stage and the conversation that belongs there."
-                  },
-                  {
-                    "number": "03",
-                    "title": "Team Rhythm",
-                    "description": "We set owners, follow-up, and the weekly review the team will run."
-                  },
-                  {
-                    "number": "04",
-                    "title": "Live Adjust",
-                    "description": "We run the process and change the steps that do not match real deals."
-                  }
-                ]
-              },
-              {
-                "slug": "financial-advisory",
-                "title": "Financial Advisory",
-                "subtitle": "Service Detail",
-                "title_line1": "Financial Advisory",
-                "title_highlight": "Decisions From the Numbers",
-                "intro": "We help owners read cash, margin, and reserves before the next big spend.",
-                "image": "/services/1.webp",
-                "description_title": "Description",
-                "paragraphs": [
-                  "Financial advisory is for the decision already on the table: hire, expand, hold cash, or reinvest. We read the numbers with you before that choice is made.",
-                  "The review covers cash on hand, margin, and what must stay protected. You see what can be spent, what should wait, and what a weak month would do to the plan.",
-                  "You leave with a short brief for the next owner meeting. It names the option, the risk, and the number that would tell you to stop."
-                ],
-                "process_title": "Service Process",
-                "process": [
-                  {
-                    "number": "01",
-                    "title": "Number Review",
-                    "description": "We read cash, margin, and the spend already being discussed."
-                  },
-                  {
-                    "number": "02",
-                    "title": "Options",
-                    "description": "We lay out what to protect, what to reinvest, and what can wait."
-                  },
-                  {
-                    "number": "03",
-                    "title": "Decision Brief",
-                    "description": "We write a short note the owners can use in the next meeting."
-                  },
-                  {
-                    "number": "04",
-                    "title": "Next Step",
-                    "description": "We walk through the brief and agree the one action to take first."
-                  }
-                ]
-              },
-              {
-                "slug": "tax-planning",
-                "title": "Tax Planning",
-                "subtitle": "Service Detail",
-                "title_line1": "Tax Planning",
-                "title_highlight": "Before the Filing",
-                "intro": "We plan taxes around income, investments, and the filings that hit this year.",
-                "image": "/services/2.webp",
-                "description_title": "Description",
-                "paragraphs": [
-                  "Tax planning is the work you do before the return is due. We look at income, investments, and the deductions that actually apply to you.",
-                  "You get a simple view of what to set aside and which choices change the bill. The advice stays tied to this year's numbers, not a generic checklist."
-                ],
-                "process_title": "Service Process",
-                "process": [
-                  {
-                    "number": "01",
-                    "title": "Income Review",
-                    "description": "We list income, investments, and last year's filing."
-                  },
-                  {
-                    "number": "02",
-                    "title": "Options",
-                    "description": "We mark the choices that change this year's tax."
-                  },
-                  {
-                    "number": "03",
-                    "title": "Plan",
-                    "description": "We write what to set aside and what to do before filing."
-                  },
-                  {
-                    "number": "04",
-                    "title": "Check-in",
-                    "description": "We review the plan once the year is closer to close."
-                  }
-                ]
-              },
-              {
-                "slug": "retirement-planning",
-                "title": "Retirement Planning",
-                "subtitle": "Service Detail",
-                "title_line1": "Retirement Planning",
-                "title_highlight": "A Date You Can Use",
-                "intro": "We map the savings and income you need so retirement is a date, not a guess.",
-                "image": "/services/3.webp",
-                "description_title": "Description",
-                "paragraphs": [
-                  "Retirement planning starts with the life you want and the income that life needs. We turn that into a savings number and a yearly pace.",
-                  "You see what you already have, what is missing, and which account should get the next rupee."
-                ],
-                "process_title": "Service Process",
-                "process": [
-                  {
-                    "number": "01",
-                    "title": "Life Cost",
-                    "description": "We estimate the income the retirement you want would need."
-                  },
-                  {
-                    "number": "02",
-                    "title": "Gap",
-                    "description": "We compare that with what you already save."
-                  },
-                  {
-                    "number": "03",
-                    "title": "Pace",
-                    "description": "We set the yearly amount and where it should sit."
-                  },
-                  {
-                    "number": "04",
-                    "title": "Review",
-                    "description": "We check the pace when income or goals change."
-                  }
-                ]
-              },
-              {
-                "slug": "wealth-management",
-                "title": "Wealth Management",
-                "subtitle": "Service Detail",
-                "title_line1": "Wealth Management",
-                "title_highlight": "A Mix That Fits",
-                "intro": "We look after investments, risk, and the mix that fits the life you want.",
-                "image": "/services/1.webp",
-                "description_title": "Description",
-                "paragraphs": [
-                  "Wealth management keeps investments, cash, and risk in one view. We set a mix you can live with when markets move.",
-                  "The work is a review, a written mix, and a check when your life or the market changes the plan."
-                ],
-                "process_title": "Service Process",
-                "process": [
-                  {
-                    "number": "01",
-                    "title": "Holdings",
-                    "description": "We list what you own and the risk already in it."
-                  },
-                  {
-                    "number": "02",
-                    "title": "Mix",
-                    "description": "We propose a mix that matches your timeline."
-                  },
-                  {
-                    "number": "03",
-                    "title": "Setup",
-                    "description": "We agree what stays, what moves, and what is new."
-                  },
-                  {
-                    "number": "04",
-                    "title": "Review",
-                    "description": "We revisit the mix on a set schedule."
-                  }
-                ]
-              },
-              {
-                "slug": "investment-advisory",
-                "title": "Investment Advisory",
-                "subtitle": "Service Detail",
-                "title_line1": "Investment Advisory",
-                "title_highlight": "Where the Money Goes",
-                "intro": "We help you choose where money goes and what return is realistic.",
-                "image": "/services/2.webp",
-                "description_title": "Description",
-                "paragraphs": [
-                  "Investment advisory is the choice in front of you: where the next amount should go, and what return is fair to expect.",
-                  "We compare the option with your timeline and the risk you can accept, then write the reason in plain language."
-                ],
-                "process_title": "Service Process",
-                "process": [
-                  {
-                    "number": "01",
-                    "title": "Goal",
-                    "description": "We name what this money is for and when you need it."
-                  },
-                  {
-                    "number": "02",
-                    "title": "Options",
-                    "description": "We compare the choices and the return that is realistic."
-                  },
-                  {
-                    "number": "03",
-                    "title": "Choice",
-                    "description": "We write the option and the risk next to it."
-                  },
-                  {
-                    "number": "04",
-                    "title": "Follow-up",
-                    "description": "We check the choice after the first period."
-                  }
-                ]
-              }
-            ],
-            "thank_you": {
-              "title": "Thank You",
-              "title_highlight": "Message Received",
-              "description": "We have your note and will reply shortly with a time to talk.",
-              "button": {
-                "text": "Back to Home",
-                "href": "/"
+                "success_title": "Request Received",
+                "success_message": "Thank you for contacting StratEdge. A senior strategist will review your requirements and respond promptly."
               }
             }
           }

@@ -10,8 +10,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: pages.home.metadata.title,
-  description: 'FinTrust helps businesses plan, brand, and grow with practical financial advice.',
+  title: pages.home.metadata?.title || 'StratEdge - Strategic Tax & Financial Advisory',
+  description: 'StratEdge empowers businesses and high-net-worth clients with strategic tax optimization, proactive accounting, and wealth advisory.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
